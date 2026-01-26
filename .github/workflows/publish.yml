@@ -1,0 +1,25 @@
+name: documentation_stable
+on:
+  push
+
+permissions:
+  contents: write
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+     - name: Install dependencies
+       run: |
+         python -m venv virtualenv
+         source virtualenv/bin/activate
+         python -m pip install -r requirements.txt
+     - name: make website
+       run: |
+         source virtualenv/bin/activate
+         make freeze
+     - name: Deploy
+       uses: peaceiris/actions-gh-pages@v4
+       with:
+         github_token: ${{ secrets.GITHUB_TOKEN }}
+         publish_dir: ./build
