@@ -1,4 +1,4 @@
-name: documentation_stable
+name: publish website
 on:
   push
 
@@ -9,6 +9,11 @@ jobs:
   docs:
     runs-on: ubuntu-latest
     steps:
+     - uses: actions/checkout@v4
+       with:
+         fetch-depth: 0
+         fetch-tags: true
+         path: main
      - name: Install dependencies
        run: |
          python -m venv virtualenv
