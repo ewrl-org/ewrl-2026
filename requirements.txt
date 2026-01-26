@@ -1,0 +1,5 @@
+flask==2.3.1
+frozen-flask
+Flask-Markdown
+tqdm
+PyYAML

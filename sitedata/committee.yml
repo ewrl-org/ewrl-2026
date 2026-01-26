@@ -1,0 +1,9 @@
+committee:
+  - role: Program Chair
+    name: Rémy Degenne
+    aff: Inria, Lille
+    im: https://avatars.githubusercontent.com/u/4094732?v=4
+  - role: Technical support
+    name: Timothée Mathieu
+    aff: Inria, Lille
+    im: https://avatars.githubusercontent.com/u/30346931?v=4

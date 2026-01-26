@@ -1,0 +1,26 @@
+name: EWRL 2026
+tagline: European Workshop on Reinforcement Learning
+date: October 2026
+citation_date: October 2026
+analytics: UA-
+logo:
+  image: static/images/MiniConf.png
+  width: 180px
+  height: auto
+# uncomment the following line to show the site title next to the logo image
+# site_title: MiniConf
+page_title:
+  prefix: 'EWRL 2026'
+  separator: ': '
+background_image: static/images/main_lille.jpg
+organization: EWRL 2026 Organization Committee
+
+default_presentation_id: 38922815
+default_poster_pdf: /static/images/GLTR_poster.pdf
+
+calendar:
+  colors: #  Colors for the different event hashtags:
+    ---: '#bed972'
+    qa: '#4FCAEB'
+    talk: '#ccc'
+  sunday_saturday: false  #  Include Sunday and Saturday
