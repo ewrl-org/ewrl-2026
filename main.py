@@ -28,7 +28,7 @@ def main(site_data_path):
         elif typ == "yml":
             site_data[name] = yaml.load(open(f).read(), Loader=yaml.SafeLoader)
 
-    for typ in ["papers", "speakers", "workshops"]:
+    for typ in ["papers", "speakers"]:
         by_uid[typ] = {}
         for p in site_data[typ]:
             by_uid[typ][p["UID"]] = p
@@ -112,13 +112,6 @@ def schedule():
     return render_template("schedule.html", **data)
 
 
-@app.route("/workshops.html")
-def workshops():
-    data = _data()
-    data["workshops"] = [
-        format_workshop(workshop) for workshop in site_data["workshops"]
-    ]
-    return render_template("workshops.html", **data)
 
 
 def extract_list_field(v, key):
@@ -152,19 +145,6 @@ def format_paper(v):
     }
 
 
-def format_workshop(v):
-    list_keys = ["authors"]
-    list_fields = {}
-    for key in list_keys:
-        list_fields[key] = extract_list_field(v, key)
-
-    return {
-        "id": v["UID"],
-        "title": v["title"],
-        "organizers": list_fields["authors"],
-        "abstract": v["abstract"],
-    }
-
 
 # ITEM PAGES
 
@@ -185,21 +165,6 @@ def speaker(speaker):
     data = _data()
     data["speaker"] = v
     return render_template("speaker.html", **data)
-
-
-@app.route("/workshop_<workshop>.html")
-def workshop(workshop):
-    uid = workshop
-    v = by_uid["workshops"][uid]
-    data = _data()
-    data["workshop"] = format_workshop(v)
-    return render_template("workshop.html", **data)
-
-
-@app.route("/chat.html")
-def chat():
-    data = _data()
-    return render_template("chat.html", **data)
 
 
 # FRONT END SERVING
@@ -233,8 +198,6 @@ def generator():
         yield "poster", {"poster": str(paper["UID"])}
     for speaker in site_data["speakers"]:
         yield "speaker", {"speaker": str(speaker["UID"])}
-    for workshop in site_data["workshops"]:
-        yield "workshop", {"workshop": str(workshop["UID"])}
 
     for key in site_data:
         yield "serve", {"path": key}
