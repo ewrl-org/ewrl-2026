@@ -1,5 +1,12 @@
-flask==2.3.1
-frozen-flask
-Flask-Markdown
-tqdm
-PyYAML
+blinker==1.9.0
+click==8.3.1
+Flask==2.3.1
+Flask-Markdown==0.3
+Frozen-Flask==1.0.2
+itsdangerous==2.2.0
+Jinja2==3.1.6
+Markdown==3.10.1
+MarkupSafe==3.0.3
+PyYAML==6.0.3
+tqdm==4.67.1
+Werkzeug==3.1.5
