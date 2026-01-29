@@ -71,6 +71,7 @@ def favicon():
 def home():
     data = _data()
     data["readme"] = open("README.md").read()
+    data["speakers"] = site_data["speakers"]
     data["committee"] = site_data["committee"]["committee"]
     return render_template("index.html", **data)
 
@@ -91,6 +92,7 @@ def papers():
 @app.route("/call.html")
 def call():
     data = _data()
+    data["call"] = open("sitedata/call.md").read()
     return render_template("call.html", **data)
 
 
@@ -161,7 +163,7 @@ def poster(poster):
 @app.route("/speaker_<speaker>.html")
 def speaker(speaker):
     uid = speaker
-    v = by_uid["speakers"][uid]
+    v = by_uid["speakers"][int(uid)]
     data = _data()
     data["speaker"] = v
     return render_template("speaker.html", **data)
