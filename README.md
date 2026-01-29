@@ -24,12 +24,12 @@ Reinforcement learning is an active field of research which deals with the probl
 
 EWRL 19 will be located in the University of Lille, France.
 
-TODO: short description of Lille. Photos and a map.
+UNDER CONSTRUCTION
 
 ### Accomodation
 
-TODO
+UNDER CONSTRUCTION
 
 ### Social
 
-TODO
+UNDER CONSTRUCTION
