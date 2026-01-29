@@ -1,5 +1,9 @@
 committee:
   - role: Program Chair
+    name: Emilie Kaufmann
+    aff: Université de Lille, CNRS
+    im: https://emiliekaufmann.github.io/photo.jpg
+  - role: Program Chair
     name: Rémy Degenne
     aff: Inria, Lille
     im: https://avatars.githubusercontent.com/u/4094732?v=4
