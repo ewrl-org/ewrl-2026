@@ -163,7 +163,7 @@ def poster(poster):
 @app.route("/speaker_<speaker>.html")
 def speaker(speaker):
     uid = speaker
-    v = by_uid["speakers"][uid]
+    v = by_uid["speakers"][int(uid)]
     data = _data()
     data["speaker"] = v
     return render_template("speaker.html", **data)
