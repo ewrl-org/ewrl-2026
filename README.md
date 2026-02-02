@@ -2,7 +2,7 @@
 
 - Dates: October 5th - 7th, 2026
 - Location: Lille, France
-- Contact: ewrl-2026@inria.fr
+- Contact: [ewrl-2026@inria.fr](mailto:ewrl-2026@inria.fr)
 - Paper submission opens: TBA
 - Paper submission deadline: TBA(11:59pm AOE)
 - Paper submissions: via Openreview, link TBD
