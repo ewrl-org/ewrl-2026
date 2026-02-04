@@ -12,6 +12,7 @@ Submitted papers should follow the EWRL template linked below (TBD). There is a 
 
 For any questions, please contact the organizers at ewrl-2026@inria.fr.
 
+Some of the submissions will be selected for oral presentation in addition to poster presentation.
 
 ### Fast track instructions
 
@@ -28,28 +29,3 @@ For submission to the fast track, we consider papers accepted at the following v
 - Paper submissions: via Openreview, link TBD
 
 
-
-
-# Call for Contributed Talks
-
-In an effort to bring novel and diverse viewpoints to EWRL this year’s workshop has a call for contributed talks. We invite early-career researchers to submit proposals for an invited talk at EWRL 2026. Accepted authors will be given a 15-minute time slot for their presentation at the workshop.
-
-The content of talks should relate to or be on topics in the area of reinforcement learning. If your talk is on a paper you submitted to the main track of EWRL, you can reference it in your proposal.
-
-### Submission guidelines
-
-Submit one pdf document (see template here) including:
-
-- Abstract of your talk: 1-2 pages. This should include a preliminary title and abstract, a short description of the content, and a brief description of the anticipated outcome of your talk (e.g. increase awareness of an open problem, presenting new/emerging results, call-to-action etc.)
-- A brief CV (see template) indicating your current and past positions, and a short list of related contributions to the topic of your talk. Do not include any metrics such as: Number of papers, citations, impact factors etc. (See also the section Special Review Criteria below)
-
-### Special Review Criteria
-
-- The speaker/author must be an early-career researcher: You are currently enrolled in a PhD program, or are a postdoctoral researcher who has received their PhD within the last three years (Researchers at Assistant Professor level are eligible if they started their position at most three years ago).
-- For the evaluation of your submission we will adhere to the principals laid out in the San Francisco Declaration on Research Assessment: We will review your submission based on its (scientific) content, and not on reputation or publication metrics.
-
-### Info
-
-- Talk submission deadline: TBD
-- Notification of acceptance: TBD
-- Talk submissions: via Openreview, link TBD
