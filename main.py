@@ -73,6 +73,7 @@ def home():
     data["readme"] = open("README.md").read()
     data["speakers"] = site_data["speakers"]
     data["committee"] = site_data["committee"]["committee"]
+    data["jsonld"] = site_data["jsonld_event"]
     return render_template("index.html", **data)
 
 
