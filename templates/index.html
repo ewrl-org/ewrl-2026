@@ -2,6 +2,10 @@
 {% extends "base.html" %}
 
 {% block top %}
+<script type="application/ld+json">
+  {{ jsonld | tojson}}
+</script>
+
 <style>
   .back {
     background: url("{{config.background_image}}") no-repeat center;
