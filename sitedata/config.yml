@@ -24,3 +24,18 @@ calendar:
     qa: '#4FCAEB'
     talk: '#ccc'
   sunday_saturday: false  #  Include Sunday and Saturday
+
+seo:
+  description: EWRL 2026 is the 19th European Workshop on Reinforcement Learning, held October 5–7 in Lille, France.
+  keywords:
+    - "EWRL 2026"
+    - "European Workshop on Reinforcement Learning"
+    - "RL conference 2026"
+    - "RL workshop Europe 2026"
+    - "reinforcement learning"
+    - "deep reinforcement learning"
+    - "bandits"
+    - "sequential decision"
+    - "machine learning workshop Lille"
+    - "RL research Europe"
+  url: https://ewrl-org.github.io/ewrl-2026/
