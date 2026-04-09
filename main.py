@@ -96,6 +96,10 @@ def call():
     data["call"] = open("sitedata/call.md").read()
     return render_template("call.html", **data)
 
+@app.route("/tba_schedule.html.html")
+def call():
+    data = _data()
+    return render_template("tba_schedule.html", **data)
 
 @app.route("/paper_vis.html")
 def paper_vis():
