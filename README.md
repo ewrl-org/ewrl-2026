@@ -26,8 +26,6 @@ EWRL 19 will be located in the University of Lille, France.
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37134.763398605!2d3.0737671403204416!3d50.62741000702484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d64c58874917%3A0x898bc40dd3435326!2sLilliad%20Learning%20center%20innovation!5e0!3m2!1sen!2sfr!4v1775720846277!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-UNDER CONSTRUCTION
-
 ### Accomodation
 
 UNDER CONSTRUCTION
