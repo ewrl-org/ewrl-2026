@@ -97,7 +97,7 @@ def call():
     return render_template("call.html", **data)
 
 @app.route("/tba_schedule.html")
-def call():
+def tba_schedule():
     data = _data()
     return render_template("tba_schedule.html", **data)
 
