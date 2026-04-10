@@ -1,5 +1,8 @@
 ## 19th European Workshop on Reinforcement Learning (EWRL 2026)
 
+<img style="float: right;" src="https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/ewrl_2026_logo.png?raw=true"
+width="320"/>
+
 - Dates: October 5th - 7th, 2026
 - Location: Lille, France
 - Contact: [ewrl-2026@inria.fr](mailto:ewrl-2026@inria.fr)
@@ -9,6 +12,8 @@
 - Registration final deadline: TBA
 - Notification of paper acceptance: TBA
 - Notification of contributed talks acceptance: TBA
+
+
 
 ### Description
 
