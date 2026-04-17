@@ -9,7 +9,7 @@ width="320"/>
 - Paper submission opens: April 20th
 - Paper submission deadline: May 22nd (11:59pm AOE)
 - Paper submissions: via [Openreview](https://openreview.net/group?id=EWRL/2026/Workshop)
-- Registration final deadline: 
+- Registration final deadline: TBD
 - Notification of paper acceptance: July 10th AOE
 
 
