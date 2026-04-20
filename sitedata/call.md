@@ -26,6 +26,6 @@ For submission to the fast track, we consider papers accepted at the following v
 - Paper submissions: via [Openreview](https://openreview.net/group?id=EWRL/2026/Workshop)
 - Notification of paper acceptance: July 10th AOE
 - Page limit - doesn’t apply to fast track: 9 pages excluding references and appendix (+1 page for final version)
-- Paper format: TBD
+- Paper format: [here](https://github.com/ewrl-org/ewrl-2026/raw/refs/heads/main/static/ewrl-2026-styles.zip)
 
 
