@@ -8,7 +8,7 @@ We invite submissions to the 19th European Workshop on Reinforcement Learning (E
 
 Submissions are handled through OpenReview. Submitted papers will be reviewed by the program committee in a double-blind procedure. Final decisions will be taken by the program chairs based on the reviews. There will be no author/reviewer discussion phase. Only accepted papers will be publicly released, while rejected or withdrawn manuscripts will be kept confidential.
 
-Submitted papers should follow the EWRL template linked below (TBD). There is a limit of 9 pages, excluding references and appendix. Authors of accepted papers will be allowed an additional page to prepare the camera-ready version. There is no page limit for the fast track. All accepted papers will be presented as posters.
+Submitted papers should follow the EWRL template linked below. There is a limit of 9 pages, excluding references and appendix. Authors of accepted papers will be allowed an additional page to prepare the camera-ready version. There is no page limit for the fast track. All accepted papers will be presented as posters.
 
 For any questions, please contact the organizers at ewrl-2026@inria.fr.
 

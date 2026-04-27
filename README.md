@@ -23,6 +23,8 @@ Past editions of EWRL can be found [here](https://ewrl-org.github.io/).
 
 Reinforcement learning is an active field of research which deals with the problem of sequential decision making in unknown (and often) stochastic and/or partially observable environments. Recently there has been a wealth of impressive empirical results, including those coupling Deep Learning function approximators with Reinforcement Learning algorithms, as well as significant theoretical advances. Both types of advances are of major importance and we aim to create a forum to discuss such interesting results, their applications, consequences, and research perspectives.
 
+We encourage submissions in both theoretical and practical aspects of Reinforcement Learning.
+
 ### Venue
 
 EWRL 19 will be located in the University of Lille, France.
