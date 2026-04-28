@@ -41,18 +41,18 @@ committee:
   - role: Organization Commitee
     name: Debabrota Basu
     aff: Université de Lille, Inria  
-- role: Organization Commitee
+  - role: Organization Commitee
     name: Riad Akrour
     aff: Université de Lille, Inria
-- role: Organization Commitee
+  - role: Organization Commitee
     name: Julien Teigny
     aff: Inria
-- role: Organization Commitee
+  - role: Organization Commitee
     name: Yann Berthelot
     aff: Université de Lille, Inria
-- role: Organization Commitee
+  - role: Organization Commitee
     name: Brahim Driss
     aff: Université de Lille, Inria
-- role: Organization Commitee
+  - role: Organization Commitee
     name: Amélie Supervielle
     aff: Inria
