@@ -7,7 +7,7 @@ width="320"/>
 - Location: Lille, France
 - Contact: [ewrl-2026@inria.fr](mailto:ewrl-2026@inria.fr)
 - Paper submission opens: April 20th
-- Paper submission deadline: May 22nd (11:59pm AOE)
+- Paper submission deadline: May 29nd (11:59pm AOE)
 - Paper submissions: via [Openreview](https://openreview.net/group?id=EWRL/2026/Workshop)
 - Registration final deadline: TBD
 - Notification of paper acceptance: July 10th AOE
