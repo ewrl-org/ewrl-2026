@@ -22,7 +22,7 @@ For submission to the fast track, we consider papers accepted at the following v
 ### Info
 
 - Paper submission opens: April 20th
-- Paper submission deadline: ~~May 22nd~~ May 29th (11:59pm AOE)
+- Paper submission deadline: May 29th (11:59pm AOE)
 - Paper submissions: via [Openreview](https://openreview.net/group?id=EWRL/2026/Workshop)
 - Notification of paper acceptance: July 10th AOE
 - Page limit - doesn’t apply to fast track: 9 pages excluding references and appendix (+1 page for final version)
