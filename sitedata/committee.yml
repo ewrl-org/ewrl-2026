@@ -47,6 +47,7 @@ committee:
   - role: Organization Commitee
     name: Julien Teigny
     aff: Inria
+    im: https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/julien.jpg?raw=true
   - role: Organization Commitee
     name: Yann Berthelot
     aff: Université de Lille, Inria
