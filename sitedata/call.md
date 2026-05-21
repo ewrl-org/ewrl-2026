@@ -16,7 +16,9 @@ Some of the submissions will be selected for oral presentation in addition to po
 
 ### Fast track instructions
 
-For submission to the fast track, we consider papers accepted at the following venues: NeurIPS, ICML, ICLR, RLC, AAAI, IJCAI, AISTATS, COLT, UAI, ALT, ICRA, IROS, CoRL, RAL, TMLR, JMLR, ECAI. If you want to submit a paper that was accepted at a different archival venue and you believe that this venue should be included in the list above, please let us know. In the submission process, you will be required to provide a link to the online proceedings page showing your accepted article. If your paper is accepted but not yet published online, please send the acceptance confirmation to us at ewrl-2026@inria.fr.
+For submission to the fast track, we consider research papers accepted at the following venues: NeurIPS, ICML, ICLR, RLC, AAAI, IJCAI, AISTATS, COLT, UAI, ALT, ICRA, IROS, CoRL, RAL, TMLR, JMLR, ECAI. If you want to submit a paper that was accepted at a different archival venue and you believe that this venue should be included in the list above, please let us know. In the submission process, you will be required to provide a link to the online proceedings page showing your accepted article. If your paper is accepted but not yet published online, please send the acceptance confirmation to us at ewrl-2026@inria.fr.
+
+For simplicity, you can submit the paper in the format of the original venue, no need to conform to EWRL format (and no need to respect the 9 pages limit, just respecting the page limit of original venue is enough).
 
 
 ### Info
