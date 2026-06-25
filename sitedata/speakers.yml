@@ -1,4 +1,13 @@
 - UID: 1
+  image: "https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/christian_duriez.png?raw=true"
+  title: "Christian Duriez"
+  institution: "DEFROST, Inria, Univ Lille, CNRS, Ecole Centrale de Lille, Compliance Robotics, France"
+  speaker: Christian Duriez
+  url: "https://scholar.google.com/citations?user=sAA2koIAAAAJ&hl=fr"
+  abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  session: 1
+
+- UID: 2
   image: "https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/nathan.jpeg?raw=true"
   title: "Nathan Grinsztajn"
   institution: "Mistral."
@@ -7,7 +16,7 @@
   abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   bio: "Nathan Grinsztajn works on agents at Mistral AI. Previously, he was a Member of Technical Staff at Cohere, where he worked on RL for LLMs and reasoning, and before that a research scientist at InstaDeep, where he focused on transformers for combinatorial optimization and discrete problems."
   session: 1
-- UID: 2
+- UID: 3
   image: "https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/anders.jpeg?raw=true"
   title: "Anders Jonsson"
   institution: "Universitat Pompeu Fabra."
@@ -16,7 +25,7 @@
   abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   bio: "Anders Jonsson is a full professor in the Department of Engineering, where he heads the Artificial Intelligence and Machine Learning research group. His research interests involve sequential decision problems in which one or several agents have to make repeated decisions about what to do, mainly in the form of automated planning and reinforcement learning."
   session: 1
-- UID: 3
+- UID: 4
   image: "https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/NguyenSaoMaiIdSquare.png?raw=true"
   title: "Sao Mai Nguyen"
   institution: "Ensta-Paris."
@@ -25,7 +34,7 @@
   abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   bio: "Sao Mai Nguyen is an associate professor at Ensta-Paris. She is interested in robotics, artificial intelligence and cognitive science. She tries to bridge these 3 aspects in her work, and started working in cognitive developmental robotics. She has a special interest in linking research of machine learning, robotic embodiment, child development psychology and neuroscience."
   session: 1
-- UID: 4
+- UID: 5
   image: "https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/alex.jpg?raw=true"
   title: "Alexandre Proutiere"
   institution: "KTH, Royal Institute of Technology."
@@ -34,7 +43,7 @@
   abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   bio: "Alexandre Proutiere is a professor at the Decision and Control Systems division in the EECS school at KTH, Royal Institute of Technology. His research interests are Machine Learning and AI, reinforcement learning, unsupervised learning, statistics, stochastic processes, control; applications to communication and social networks, cybersecurity."
   session: 1
-- UID: 5
+- UID: 6
   image: "https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/giorgia.jpeg?raw=true"
   title: "Giorgia Ramponi"
   institution: "University of Zurich."
@@ -43,7 +52,15 @@
   abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   bio: "Giorgia is an Assistant Professor with Tenure Track at the Faculty of Business, Economics, and Informatics at the University of Zurich. She is also an affiliated professor at the ETH AI Center and an affiliated professor at the Data Science and AI, Computer Science, and Engineering department at Chalmers University of Technology."
   session: 1
-- UID: 6
+- UID: 7
+  image: "https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/Pierre_Schegg.png?raw=true"
+  title: "Pierre Schegg"
+  institution: "CAMIN, Inria, LIRMM, Univ Montpellier, Montpellier, France"
+  speaker: Pierre Schegg
+  url: "https://scholar.google.com/citations?user=KSrBQrcAAAAJ&hl=fr"
+  abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  session: 1
+- UID: 8
   image: "https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/aviv.png?raw=true"
   title: "Aviv Tamar"
   institution: "Technion ECE."
