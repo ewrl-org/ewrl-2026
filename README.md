@@ -53,12 +53,7 @@ If you need an invitation letter for visa purposes please contact [ewrl-2026@inr
 
 ### Accomodation
 
-Local information 
-
-It is easy to find a hotel in Lille using websites such as https://fr.hotels.com/ or booking.com, in particular in the city center which is 15 min metro away from the conference venue. But there are also two hotels on the campus. See our recommendations here (PDF Amélie). 
-
-For more information on how to get to Lille and to the LILIAD conference center, and about Lille in general you can download our [conference guide](https://github.com/ewrl-org/ewrl-2026/blob/main/static/EWRL-hotels-list.pdf?raw=true).
-
+It is easy to find a hotel in Lille using websites such as [https://fr.hotels.com/](https://fr.hotels.com/) or [booking.com](booking.com), in particular in the city center which is 15 min metro away from the conference venue. But there are also two hotels on the campus. See our recommendations [here](https://github.com/ewrl-org/ewrl-2026/blob/main/static/EWRL-hotels-list.pdf?raw=true). 
 
 ### Social
 
