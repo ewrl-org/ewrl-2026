@@ -37,13 +37,13 @@ Click here to register : (coming soon)
 
 If you need an invitation letter for visa purposes please contact [ewrl-2026@inria.fr](mailto:ewrl-2026@inria.fr)
 
-#### Key dates
+##### Key dates
 
 - July 1st: opening of the registration platform
 - September 10th: end of early bird rate
 - September 20th: registration ends
 
-#### Registration fees
+##### Registration fees
 
 - student (early bird, until Sept. 10th): 170€ (10€ conference fees + 160€ catering fees)
 - other (early bird, until Sept. 10th): 270€ (20€ conference fees + 250€ catering fees)
@@ -57,13 +57,15 @@ It is easy to find a hotel in Lille using websites such as [https://fr.hotels.co
 
 ### Social
 
-#### Cocktail
+There are two social events.
+
+##### Cocktail
 
 The Cocktail will be held at Lilliad, the conference venue, on the 6th, from 6:00 pm to 8:00 pm.
 
 No registration is required, and there's no need to leave the conference venue! 
 
-#### Gala Dinner
+##### Gala Dinner
 
 The Gala Dinner will be held at the Palais de la Bourse (40 Place du Théâtre), a landmark building dating from the early 20th century that was originally designed to house the Chamber of Commerce. Registration is mandatory (you will be able to opt in for the Gala Dinner during the workshop registration).
 
