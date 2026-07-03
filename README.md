@@ -33,9 +33,9 @@ EWRL 19 will be located in the University of Lille, France.
 
 ### Registration
 
-Click here to register : (coming soon)
+Click [here](https://inscription-evenement.univ-lille.fr/EWRL2026/) to register.
 
-If you need an invitation letter for visa purposes please contact [ewrl-2026@inria.fr](mailto:ewrl-2026@inria.fr)
+If you need an invitation letter for visa purposes please contact [ewrl-2026@inria.fr](mailto:ewrl-2026@inria.fr).
 
 ##### Key dates
 
