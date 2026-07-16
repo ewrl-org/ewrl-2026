@@ -52,10 +52,8 @@ async function make_cal(handleResize = true) {
 
   // determine min date
   const min_date = d3.min(events.map((e) => e.start));
-  let min_hours =
-    d3.min(events.map((e) => moment(e.start).tz(timezoneName).hours())) - 1;
-  let max_hours =
-    d3.max(events.map((e) => moment(e.end).tz(timezoneName).hours())) + 1;
+  let min_hours = 8;
+  let max_hours = 20;
   if (min_hours < 0 || max_hours > 24) {
     min_hours = 0;
     max_hours = 24;
@@ -65,6 +63,7 @@ async function make_cal(handleResize = true) {
   const calendar = new Calendar("#calendar", {
     defaultView: "week",
     isReadOnly: true,
+hiddenDays: [0, 4, 5, 6],
     // useDetailPopup: true,
     taskView: false,
     scheduleView: ["time"],
@@ -106,7 +105,9 @@ async function make_cal(handleResize = true) {
       },
     },
   });
+
   calendar.setDate(Date.parse(min_date));
+
   calendar.createSchedules(events);
   calendar.on({
     clickSchedule(e) {
