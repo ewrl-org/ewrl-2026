@@ -8,7 +8,7 @@
 
 {% block tabs %}
 {{ components.tabs([("calendar", "Calendar", "active"),
-        ("day", "Example Day", "")]) }}
+("monday", "Monday", " "), ("tuesday", "Tuesday", " "), ("wednesday", "Wednesday", " ")]) }}
 {% endblock %}
 
 {% block content %}
@@ -42,24 +42,66 @@
 
   <div
     class="tab-pane fade"
-    id="tab-day"
+    id="tab-monday"
     role="tabpanel"
     aria-labelledby="nav-profile-tab"
   >
-    <div id="day">
+    <div id="monday">
       <!-- Speakers -->
       {{ components.section("Speakers") }}
       <div class="speakers">
-        {{ components.speakergroup(day.speakers) }}
+        {{ components.speakergroup(day.speakers1) }}
       </div>
-      {{ components.section("Highlighted Papers") }}
-      <div class="papers">
-        {{ components.highlightgroup(day.highlighted, 1) }}
-      </div>
+      <!-- {{ components.section("Highlighted Papers") }} -->
+      <!-- <div class="papers"> -->
+      <!--   {{ components.highlightgroup(day.highlighted, 1) }} -->
+      <!-- </div> -->
     </div>
 
+  </div>
+
+
+  <div
+    class="tab-pane fade"
+    id="tab-tuesday"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+    <div id="tuesday">
+      <!-- Speakers -->
+      {{ components.section("Speakers") }}
+      <div class="speakers">
+        {{ components.speakergroup(day.speakers2) }}
+      </div>
+      <!-- {{ components.section("Highlighted Papers") }} -->
+      <!-- <div class="papers"> -->
+      <!--   {{ components.highlightgroup(day.highlighted, 1) }} -->
+      <!-- </div> -->
+    </div>
 
   </div>
+
+  <div
+    class="tab-pane fade"
+    id="tab-wednesday"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+    <div id="wednesday">
+      <!-- Speakers -->
+      {{ components.section("Speakers") }}
+      <div class="speakers">
+        {{ components.speakergroup(day.speakers3) }}
+      </div>
+      <!-- {{ components.section("Highlighted Papers") }} -->
+      <!-- <div class="papers"> -->
+      <!--   {{ components.highlightgroup(day.highlighted, 1) }} -->
+      <!-- </div> -->
+    </div>
+
+  </div>
+
+
 
   <script type="text/javascript">
     window.onload = () => {

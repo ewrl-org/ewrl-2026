@@ -106,19 +106,23 @@ def paper_vis():
     data = _data()
     return render_template("papers_vis.html", **data)
 
-
 @app.route("/calendar.html")
 def schedule():
     data = _data()
+
+    speakers1 = [s for s in site_data["speakers"] if s["UID"] in [8,4]]
+    speakers2 = [s for s in site_data["speakers"] if s["UID"] in [3,2]]
+    speakers3 = [s for s in site_data["speakers"] if s["UID"] in [1,5,6,7]]
+    
     data["day"] = {
-        "speakers": site_data["speakers"],
+        "speakers1": speakers1,
+        "speakers2": speakers2,
+        "speakers3": speakers3,
         "highlighted": [
             format_paper(by_uid["papers"][h["UID"]]) for h in site_data["highlighted"]
         ],
     }
     return render_template("schedule.html", **data)
-
-
 
 
 def extract_list_field(v, key):
