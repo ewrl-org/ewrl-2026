@@ -20,6 +20,21 @@
               displayMath: [['$$', '$$'], ['\\[', '\\]']]
           }
       };
+      function activateTabFromHash() {
+          const hash = window.location.hash;
+          if (!hash) return;
+
+          const trigger = document.querySelector(
+              `[data-bs-toggle="tab"][href="${hash}"], [data-bs-toggle="tab"][data-bs-target="${hash}"]`
+          );
+
+          if (trigger) {
+              bootstrap.Tab.getOrCreateInstance(trigger).show();
+          }
+      }
+
+      window.addEventListener("load", activateTabFromHash);
+      window.addEventListener("hashchange", activateTabFromHash);
     </script>
 
     <script
