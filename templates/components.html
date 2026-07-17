@@ -186,9 +186,9 @@ workshopgroup
       {% if loop.index % 3 == 1 %}
       <div class="carousel-item {% if loop.index == 1%} active{% endif %}">
         {% endif %}
-        <div class="col-md-4 col-xs-6 fluid">
-          <div class="pp-card">
-            <div class="pp-card-header">
+        <div class="col-md-6 col-xs-6 fluid">
+          <div>
+            <div>
               <a href="poster_{{openreview.UID}}.html" class="text-muted">
                 <h5 class="card-title" align="center">
                   {{openreview.title}}
@@ -199,13 +199,23 @@ workshopgroup
                 {{a}},
                 {% endfor %}
               </h6>
-              <center>
-                <img
-                  class="cards_img lazy-load-img"
-                  data-src="https://iclr.github.io/iclr-images/{{openreview.UID}}.png"
-                  width="80%"
-                />
-              </center>
+              <br>
+              <h6 align="center">
+                {{openreview.hour}}
+              </h6>
+                <!-- <div -->
+                <!--   class="card-subtitle text-muted" -->
+                <!--   style="font-size: 0.75em; line-height: 1pw" -->
+                <!--   > -->
+                <!-- {{openreview.abstract}} -->
+                <!-- </div> -->
+              <!-- <center> -->
+              <!--   <\!-- <img -\-> -->
+              <!--   <\!--   class="cards_img lazy-load-img" -\-> -->
+              <!--   <\!--   data-src="https://iclr.github.io/iclr-images/{{openreview.UID}}.png" -\-> -->
+              <!--   <\!--   width="80%" -\-> -->
+              <!--   <\!-- /> -\-> -->
+              <!-- </center> -->
             </div>
           </div>
         </div>
@@ -214,22 +224,9 @@ workshopgroup
       {% endif %}
       {% endfor %}
     </div>
-    <a
-      class="carousel-control-prev"
-      href="#carouselExample{{id}}"
-      role="button"
-      data-slide="prev"
-    >
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a
-      class="carousel-control-next"
-      href="#carouselExample{{id}}"
-      role="button"
-      data-slide="next"
-    >
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <a>
+      <br>
+      </a>
       <span class="sr-only">Next</span>
     </a>
   </div>

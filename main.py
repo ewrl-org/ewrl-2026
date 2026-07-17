@@ -90,6 +90,7 @@ def papers():
     data["papers"] = site_data["papers"]
     return render_template("papers.html", **data)
 
+
 @app.route("/call.html")
 def call():
     data = _data()
@@ -118,10 +119,14 @@ def schedule():
         "speakers1": speakers1,
         "speakers2": speakers2,
         "speakers3": speakers3,
-        "highlighted": [
-            format_paper(by_uid["papers"][h["UID"]]) for h in site_data["highlighted"]
-        ],
+
     }
+
+    orals_perm = [13,  7, 12, 10,  2,  8, 11,  4,  3,  9,  5,  6]
+    orals_id = [116, 112,  20, 152,  99,  26, 142, 122,  14,  81, 126,   6]
+    for f in range(6):
+        data["day"]["orals"+str(f+1)] =  [ format_paper(by_uid["papers"][str(orals_id[number-2])]) for number in orals_perm[(2*f):(2*f+2)]]
+
     return render_template("schedule.html", **data)
 
 
@@ -149,6 +154,8 @@ def format_paper(v):
         "TLDR": v["abstract"],
         "recs": [],
         "sessions": list_fields["sessions"],
+        "day": v["day"],
+        "hour": v["hour"],
         # links to external content per poster
         "pdf_url": v.get("pdf_url", ""),  # render poster from this PDF
         "code_link": "https://github.com/Mini-Conf/Mini-Conf",  # link to code

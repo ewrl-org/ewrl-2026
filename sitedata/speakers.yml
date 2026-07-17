@@ -4,7 +4,8 @@
   institution: "DEFROST, Inria, Univ Lille, CNRS, Ecole Centrale de Lille, Compliance Robotics, France"
   speaker: Christian Duriez
   url: "https://scholar.google.com/citations?user=sAA2koIAAAAJ&hl=fr"
-  abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  abstract: "Abstract TBD"
+  bio: "Christian Duriez is a Research Director at Inria, University of Lille and CEO of Compliance Robotics. He works, among other things, on modelling and controlling soft robots. Through Compliance Robotics, he develops soft robots for applications in education and industry, in particular for the food industry."
   session: 1
 
 - UID: 2
@@ -13,7 +14,7 @@
   institution: "Mistral."
   speaker: Nathan Grinsztajn
   url: "https://nathangrinsztajn.github.io/"
-  abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  abstract: "Abstract TBD"
   bio: "Nathan Grinsztajn works on agents at Mistral AI. Previously, he was a Member of Technical Staff at Cohere, where he worked on RL for LLMs and reasoning, and before that a research scientist at InstaDeep, where he focused on transformers for combinatorial optimization and discrete problems."
   session: 1
 - UID: 3
@@ -22,7 +23,7 @@
   institution: "Universitat Pompeu Fabra."
   speaker: Anders Jonsson
   url: "https://www.upf.edu/web/anders-jonsson"
-  abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  abstract: "Abstract TBD"
   bio: "Anders Jonsson is a full professor in the Department of Engineering, where he heads the Artificial Intelligence and Machine Learning research group. His research interests involve sequential decision problems in which one or several agents have to make repeated decisions about what to do, mainly in the form of automated planning and reinforcement learning."
   session: 1
 - UID: 4
@@ -31,7 +32,7 @@
   institution: "Ensta-Paris."
   speaker: Sao Mai Nguyen
   url: "http://nguyensmai.free.fr/Home.html"
-  abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  abstract: "Abstract TBD"
   bio: "Sao Mai Nguyen is an associate professor at Ensta-Paris. She is interested in robotics, artificial intelligence and cognitive science. She tries to bridge these 3 aspects in her work, and started working in cognitive developmental robotics. She has a special interest in linking research of machine learning, robotic embodiment, child development psychology and neuroscience."
   session: 1
 - UID: 5
@@ -40,7 +41,7 @@
   institution: "KTH, Royal Institute of Technology."
   speaker: Alexandre Proutiere
   url: "https://people.kth.se/~alepro/"
-  abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  abstract: "Abstract TBD"
   bio: "Alexandre Proutiere is a professor at the Decision and Control Systems division in the EECS school at KTH, Royal Institute of Technology. His research interests are Machine Learning and AI, reinforcement learning, unsupervised learning, statistics, stochastic processes, control; applications to communication and social networks, cybersecurity."
   session: 1
 - UID: 6
@@ -49,7 +50,7 @@
   institution: "University of Zurich."
   speaker: Giorgia Ramponi 
   url: "https://sites.google.com/view/alpi-lab/giorgia-ramponi"
-  abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  abstract: "Abstract TBD"
   bio: "Giorgia is an Assistant Professor with Tenure Track at the Faculty of Business, Economics, and Informatics at the University of Zurich. She is also an affiliated professor at the ETH AI Center and an affiliated professor at the Data Science and AI, Computer Science, and Engineering department at Chalmers University of Technology."
   session: 1
 - UID: 7
@@ -58,7 +59,8 @@
   institution: "CAMIN, Inria, LIRMM, Univ Montpellier, Montpellier, France"
   speaker: Pierre Schegg
   url: "https://scholar.google.com/citations?user=KSrBQrcAAAAJ&hl=fr"
-  abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  abstract: "Abstract TBD"
+  bio: "Pierre Schegg is a Post-Doc at Inria, University. He works on controlling soft robots in particular for use in medical applications such as Cardiology and Bariatric Surgery."
   session: 1
 - UID: 8
   image: "https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/aviv.png?raw=true"
@@ -66,7 +68,7 @@
   institution: "Technion ECE."
   speaker: Aviv Tamar
   url: "https://avivt.github.io/avivt/"
-  abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  abstract: "Abstract TBD"
   bio: "Aviv Tamar is an associate professor at Technion ECE, where he heads the Robot Learning Lab. His research focuses on AI and machine learning, with an emphasis on robotics applications. His long term goal is to bring robots into human-centered domains such as homes and hospitals."
   session: 1
 
