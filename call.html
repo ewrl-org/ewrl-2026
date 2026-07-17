@@ -13,7 +13,18 @@
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <script>
+      window.MathJax = {
+          tex: {
+              inlineMath: [['$', '$'], ['\\(', '\\)']],
+              displayMath: [['$$', '$$'], ['\\[', '\\]']]
+          }
+      };
+    </script>
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
     <!-- SEO related meta-tags -->
     <meta name="description" content="EWRL 2026 is the 19th European Workshop on Reinforcement Learning, held October 5–7 in Lille, France.">
     <meta name="keywords" content="EWRL 2026, European Workshop on Reinforcement Learning, RL conference 2026, RL workshop Europe 2026, reinforcement learning, deep reinforcement learning, bandits, sequential decision, machine learning workshop Lille, RL research Europe">
