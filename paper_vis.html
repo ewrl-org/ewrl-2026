@@ -18,7 +18,7 @@
               displayMath: [['$$', '$$'], ['\\[', '\\]']]
           }
       };
-      function activateTabFromHash() {
+      document.addEventListener("DOMContentLoaded", function () {
           const hash = window.location.hash;
           if (!hash) return;
 
@@ -29,10 +29,7 @@
           if (trigger) {
               bootstrap.Tab.getOrCreateInstance(trigger).show();
           }
-      }
-
-      window.addEventListener("load", activateTabFromHash);
-      window.addEventListener("hashchange", activateTabFromHash);
+      });
     </script>
 
     <script
