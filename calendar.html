@@ -283,42 +283,11 @@
       <div class="border-top my-3"></div>
 <div class="row p-4" id="faq">
   <div class="col-12 bd-content">
-    <h2 class="text-center">Keynote Speakers</h2>
+    <h2 class="text-center">Keynote A: 9:00am</h2>
   </div>
 </div>
       <div class="speakers">
         
-<div class="row p-4">
-  <div class="col-md-12">
-    <div class="card">
-      <div class="card-header">
-        <div class="row">
-          <div class="col-md-2 col-sm-5">
-            <img src="https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/NguyenSaoMaiIdSquare.png?raw=true" width="100%" class="img-thumbnail" />
-          </div>
-          <div class="col-md-10 col-sm-6">
-            <div class="m-3 text-muted">
-              <h3>
-                <a href="speaker_4.html" class="main-title">
-                  Sao Mai Nguyen
-                </a>
-              </h3>
-            </div>
-            <div class="m-3 text-muted">
-              <span class="card-title h3">
-                Sao Mai Nguyen  /  Ensta-Paris.
-              </span>
-            </div>
-            <div class="m-3">
-              Abstract TBD
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
 <div class="row p-4">
   <div class="col-md-12">
     <div class="card">
@@ -340,9 +309,9 @@
                 Aviv Tamar  /  Technion ECE.
               </span>
             </div>
-            <div class="m-3">
-              Abstract TBD
-            </div>
+            <!-- <div class="m-3"> -->
+            <!--   Abstract TBD -->
+            <!-- </div> -->
           </div>
         </div>
       </div>
@@ -466,6 +435,48 @@ Our results demonstrate that collaborative exploration can be sustained purely t
   </div>
 </div>
       </div>
+
+      <div class="border-top my-3"></div>
+<div class="row p-4" id="faq">
+  <div class="col-12 bd-content">
+    <h2 class="text-center">Keynote B: 2:00pm</h2>
+  </div>
+</div>
+      <div class="speakers">
+        
+<div class="row p-4">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <div class="row">
+          <div class="col-md-2 col-sm-5">
+            <img src="https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/NguyenSaoMaiIdSquare.png?raw=true" width="100%" class="img-thumbnail" />
+          </div>
+          <div class="col-md-10 col-sm-6">
+            <div class="m-3 text-muted">
+              <h3>
+                <a href="speaker_4.html" class="main-title">
+                  Sao Mai Nguyen
+                </a>
+              </h3>
+            </div>
+            <div class="m-3 text-muted">
+              <span class="card-title h3">
+                Sao Mai Nguyen  /  Ensta-Paris.
+              </span>
+            </div>
+            <!-- <div class="m-3"> -->
+            <!--   Abstract TBD -->
+            <!-- </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+
       <div class="border-top my-3"></div>
 <div class="row p-4" id="faq">
   <div class="col-12 bd-content">
@@ -487,38 +498,43 @@ Our results demonstrate that collaborative exploration can be sustained purely t
         <div class="col-md-6 col-xs-6 fluid">
           <div>
             <div>
-              <a href="poster_126.html" class="text-muted">
+              <a href="poster_116.html" class="text-muted">
                 <h5 class="card-title" align="center">
-                  Best Arm Identification for Bandits with Shifting Means
+                  A Separation Principle for Cooperative Multi-Agent Reinforcement Learning
                 </h5>
               </a>
               <h6 class="card-subtitle text-muted" align="center">
                 
-                Lukas Zierahn,
+                Lucia Pezzetti,
                 
-                Wouter M Koolen,
+                Nicolas Lanzetti,
                 
-                Shubhada Agrawal,
+                Antonio Terpin,
                 
-                Christina Katsimerou,
+                Florian Dorfler,
                 
-                Dirk van der Hoeven,
+                Giorgia Ramponi,
                 
               </h6>
               <br>
               <h6 align="center">
-                15:00 - 15:15
+                10:00 - 10:15
               </h6>
                 <!-- <div -->
                 <!--   class="card-subtitle text-muted" -->
                 <!--   style="font-size: 0.75em; line-height: 1pw" -->
                 <!--   > -->
-                <!-- We study the best arm identification problem in a novel non-stationary environment that we coin Shifting Means. While classically the mean rewards of the $K$ arms are stable in time, in Shifting Means only the gaps $\boldsymbol{\Delta}$ between mean rewards are stable, while their common shift may be determined adversarially in each round. The objective of the learner is to identify the best arm with high probability while minimizing sample complexity (the fixed confidence setting). Handling shifts requires new tools: we show that algorithms employing a Generalized Likelihood Ratio Test (GLRT) stopping rule, including the popular Track-and-Stop, fail under time-varying shifts. Instead, we propose Importance Weights for Shifting Means ($\mathsf{ISM}$). Assuming means bounded by $U$ and $\sigma^2$-sub-Gaussian rewards, we show $\mathsf{ISM}$ to be $\delta$-correct and to enjoy a sample complexity bound of $K (\sigma^2 + U^2) \Delta_{\min}^{-2} \ln \frac{1}{\delta}$. We also present a matching (up to constant factors) worst-case lower bound and evaluate our results empirically. -->
+                <!-- We study cooperative multi-agent reinforcement learning (MARL) problems in which agents evolve under decoupled noisy dynamics but are coupled via a population objective. A canonical example is a mobility operator that orchestrates a fleet of vehicles in an urban environment to meet customer demand.
+The stochastic and time-varying nature of these problems calls for learning approaches, yet existing MARL algorithms do not scale: learning assignment and routing jointly over the full state-action space becomes prohibitive as the number of agents grows.
+By studying the problem as a control problem over probability measures, we prove a separation principle: the population-level cost-to-go function is upper-bounded by an optimal transport problem whose transportation cost is the target-conditioned single-agent cost-to-go function. This result simplifies the multi-agent problem to learning a single-agent policy and coordinating the agents via optimal transport.
+Thus, we introduce SALT (Separation-based Assignment and Learning via optimal Transport) a family of algorithms that learn a target-conditioned single-agent policy using any standard RL algorithm, and then coordinate the agents via optimal transport. Because learning occurs at the single-agent level, SALT scales to fleet sizes where MARL baselines become intractable and transfers without retraining to fleet sizes unseen during training.
+In a vehicle-delivery experiment in south Manhattan’s road network, where MARL baselines are computationally prohibitive, SALT improves travel times by up to 20% over a shortest-path routing heuristic and transfers without retraining to different fleet sizes.
+In stochastic grid worlds, SALT reduces average travel times by more than 40% relative to MARL baselines and scales to population sizes where these methods fail. -->
                 <!-- </div> -->
               <!-- <center> -->
               <!--   <\!-- <img -\-> -->
               <!--   <\!--   class="cards_img lazy-load-img" -\-> -->
-              <!--   <\!--   data-src="https://iclr.github.io/iclr-images/126.png" -\-> -->
+              <!--   <\!--   data-src="https://iclr.github.io/iclr-images/116.png" -\-> -->
               <!--   <\!--   width="80%" -\-> -->
               <!--   <\!-- /> -\-> -->
               <!-- </center> -->
@@ -606,42 +622,11 @@ $\bigl(\widetilde O(|\mathcal X|/((1-\gamma)^3\varepsilon^2)),\,
       <div class="border-top my-3"></div>
 <div class="row p-4" id="faq">
   <div class="col-12 bd-content">
-    <h2 class="text-center">Keynote Speakers</h2>
+    <h2 class="text-center">Keynote C: 9:00am</h2>
   </div>
 </div>
       <div class="speakers">
         
-<div class="row p-4">
-  <div class="col-md-12">
-    <div class="card">
-      <div class="card-header">
-        <div class="row">
-          <div class="col-md-2 col-sm-5">
-            <img src="https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/nathan.jpeg?raw=true" width="100%" class="img-thumbnail" />
-          </div>
-          <div class="col-md-10 col-sm-6">
-            <div class="m-3 text-muted">
-              <h3>
-                <a href="speaker_2.html" class="main-title">
-                  Nathan Grinsztajn
-                </a>
-              </h3>
-            </div>
-            <div class="m-3 text-muted">
-              <span class="card-title h3">
-                Nathan Grinsztajn  /  Mistral.
-              </span>
-            </div>
-            <div class="m-3">
-              Abstract TBD
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
 <div class="row p-4">
   <div class="col-md-12">
     <div class="card">
@@ -663,9 +648,9 @@ $\bigl(\widetilde O(|\mathcal X|/((1-\gamma)^3\varepsilon^2)),\,
                 Anders Jonsson  /  Universitat Pompeu Fabra.
               </span>
             </div>
-            <div class="m-3">
-              Abstract TBD
-            </div>
+            <!-- <div class="m-3"> -->
+            <!--   Abstract TBD -->
+            <!-- </div> -->
           </div>
         </div>
       </div>
@@ -696,43 +681,38 @@ $\bigl(\widetilde O(|\mathcal X|/((1-\gamma)^3\varepsilon^2)),\,
         <div class="col-md-6 col-xs-6 fluid">
           <div>
             <div>
-              <a href="poster_116.html" class="text-muted">
+              <a href="poster_126.html" class="text-muted">
                 <h5 class="card-title" align="center">
-                  A Separation Principle for Cooperative Multi-Agent Reinforcement Learning
+                  Best Arm Identification for Bandits with Shifting Means
                 </h5>
               </a>
               <h6 class="card-subtitle text-muted" align="center">
                 
-                Lucia Pezzetti,
+                Lukas Zierahn,
                 
-                Nicolas Lanzetti,
+                Wouter M Koolen,
                 
-                Antonio Terpin,
+                Shubhada Agrawal,
                 
-                Florian Dorfler,
+                Christina Katsimerou,
                 
-                Giorgia Ramponi,
+                Dirk van der Hoeven,
                 
               </h6>
               <br>
               <h6 align="center">
-                10:00 - 10:15
+                15:00 - 15:15
               </h6>
                 <!-- <div -->
                 <!--   class="card-subtitle text-muted" -->
                 <!--   style="font-size: 0.75em; line-height: 1pw" -->
                 <!--   > -->
-                <!-- We study cooperative multi-agent reinforcement learning (MARL) problems in which agents evolve under decoupled noisy dynamics but are coupled via a population objective. A canonical example is a mobility operator that orchestrates a fleet of vehicles in an urban environment to meet customer demand.
-The stochastic and time-varying nature of these problems calls for learning approaches, yet existing MARL algorithms do not scale: learning assignment and routing jointly over the full state-action space becomes prohibitive as the number of agents grows.
-By studying the problem as a control problem over probability measures, we prove a separation principle: the population-level cost-to-go function is upper-bounded by an optimal transport problem whose transportation cost is the target-conditioned single-agent cost-to-go function. This result simplifies the multi-agent problem to learning a single-agent policy and coordinating the agents via optimal transport.
-Thus, we introduce SALT (Separation-based Assignment and Learning via optimal Transport) a family of algorithms that learn a target-conditioned single-agent policy using any standard RL algorithm, and then coordinate the agents via optimal transport. Because learning occurs at the single-agent level, SALT scales to fleet sizes where MARL baselines become intractable and transfers without retraining to fleet sizes unseen during training.
-In a vehicle-delivery experiment in south Manhattan’s road network, where MARL baselines are computationally prohibitive, SALT improves travel times by up to 20% over a shortest-path routing heuristic and transfers without retraining to different fleet sizes.
-In stochastic grid worlds, SALT reduces average travel times by more than 40% relative to MARL baselines and scales to population sizes where these methods fail. -->
+                <!-- We study the best arm identification problem in a novel non-stationary environment that we coin Shifting Means. While classically the mean rewards of the $K$ arms are stable in time, in Shifting Means only the gaps $\boldsymbol{\Delta}$ between mean rewards are stable, while their common shift may be determined adversarially in each round. The objective of the learner is to identify the best arm with high probability while minimizing sample complexity (the fixed confidence setting). Handling shifts requires new tools: we show that algorithms employing a Generalized Likelihood Ratio Test (GLRT) stopping rule, including the popular Track-and-Stop, fail under time-varying shifts. Instead, we propose Importance Weights for Shifting Means ($\mathsf{ISM}$). Assuming means bounded by $U$ and $\sigma^2$-sub-Gaussian rewards, we show $\mathsf{ISM}$ to be $\delta$-correct and to enjoy a sample complexity bound of $K (\sigma^2 + U^2) \Delta_{\min}^{-2} \ln \frac{1}{\delta}$. We also present a matching (up to constant factors) worst-case lower bound and evaluate our results empirically. -->
                 <!-- </div> -->
               <!-- <center> -->
               <!--   <\!-- <img -\-> -->
               <!--   <\!--   class="cards_img lazy-load-img" -\-> -->
-              <!--   <\!--   data-src="https://iclr.github.io/iclr-images/116.png" -\-> -->
+              <!--   <\!--   data-src="https://iclr.github.io/iclr-images/126.png" -\-> -->
               <!--   <\!--   width="80%" -\-> -->
               <!--   <\!-- /> -\-> -->
               <!-- </center> -->
@@ -798,6 +778,46 @@ We propose a two-phase approach for doing so: we cycle through the available dyn
     </a>
   </div>
 </div>
+      </div>
+      <div class="border-top my-3"></div>
+<div class="row p-4" id="faq">
+  <div class="col-12 bd-content">
+    <h2 class="text-center">Keynote D: 2:00pm</h2>
+  </div>
+</div>
+      <div class="speakers">
+        
+<div class="row p-4">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <div class="row">
+          <div class="col-md-2 col-sm-5">
+            <img src="https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/nathan.jpeg?raw=true" width="100%" class="img-thumbnail" />
+          </div>
+          <div class="col-md-10 col-sm-6">
+            <div class="m-3 text-muted">
+              <h3>
+                <a href="speaker_2.html" class="main-title">
+                  Nathan Grinsztajn
+                </a>
+              </h3>
+            </div>
+            <div class="m-3 text-muted">
+              <span class="card-title h3">
+                Nathan Grinsztajn  /  Mistral.
+              </span>
+            </div>
+            <!-- <div class="m-3"> -->
+            <!--   Abstract TBD -->
+            <!-- </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
       </div>
       <div class="border-top my-3"></div>
 <div class="row p-4" id="faq">
@@ -957,42 +977,11 @@ last-iterate convergence guarantees, attaining an $\epsilon$-optimal constrained
       <div class="border-top my-3"></div>
 <div class="row p-4" id="faq">
   <div class="col-12 bd-content">
-    <h2 class="text-center">Keynote Speakers</h2>
+    <h2 class="text-center">Keynote E: 9:00am</h2>
   </div>
 </div>
       <div class="speakers">
         
-<div class="row p-4">
-  <div class="col-md-12">
-    <div class="card">
-      <div class="card-header">
-        <div class="row">
-          <div class="col-md-2 col-sm-5">
-            <img src="https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/christian_duriez.png?raw=true" width="100%" class="img-thumbnail" />
-          </div>
-          <div class="col-md-10 col-sm-6">
-            <div class="m-3 text-muted">
-              <h3>
-                <a href="speaker_1.html" class="main-title">
-                  Christian Duriez
-                </a>
-              </h3>
-            </div>
-            <div class="m-3 text-muted">
-              <span class="card-title h3">
-                Christian Duriez  /  DEFROST, Inria, Univ Lille, CNRS, Ecole Centrale de Lille, Compliance Robotics, France
-              </span>
-            </div>
-            <div class="m-3">
-              Abstract TBD
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
 <div class="row p-4">
   <div class="col-md-12">
     <div class="card">
@@ -1014,71 +1003,9 @@ last-iterate convergence guarantees, attaining an $\epsilon$-optimal constrained
                 Alexandre Proutiere  /  KTH, Royal Institute of Technology.
               </span>
             </div>
-            <div class="m-3">
-              Abstract TBD
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="row p-4">
-  <div class="col-md-12">
-    <div class="card">
-      <div class="card-header">
-        <div class="row">
-          <div class="col-md-2 col-sm-5">
-            <img src="https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/giorgia.jpeg?raw=true" width="100%" class="img-thumbnail" />
-          </div>
-          <div class="col-md-10 col-sm-6">
-            <div class="m-3 text-muted">
-              <h3>
-                <a href="speaker_6.html" class="main-title">
-                  Giorgia Ramponi
-                </a>
-              </h3>
-            </div>
-            <div class="m-3 text-muted">
-              <span class="card-title h3">
-                Giorgia Ramponi  /  University of Zurich.
-              </span>
-            </div>
-            <div class="m-3">
-              Abstract TBD
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="row p-4">
-  <div class="col-md-12">
-    <div class="card">
-      <div class="card-header">
-        <div class="row">
-          <div class="col-md-2 col-sm-5">
-            <img src="https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/Pierre_Schegg.png?raw=true" width="100%" class="img-thumbnail" />
-          </div>
-          <div class="col-md-10 col-sm-6">
-            <div class="m-3 text-muted">
-              <h3>
-                <a href="speaker_7.html" class="main-title">
-                  Pierre Schegg
-                </a>
-              </h3>
-            </div>
-            <div class="m-3 text-muted">
-              <span class="card-title h3">
-                Pierre Schegg  /  CAMIN, Inria, LIRMM, Univ Montpellier, Montpellier, France
-              </span>
-            </div>
-            <div class="m-3">
-              Abstract TBD
-            </div>
+            <!-- <div class="m-3"> -->
+            <!--   Abstract TBD -->
+            <!-- </div> -->
           </div>
         </div>
       </div>
@@ -1204,6 +1131,45 @@ Our results provide strong additional evidence that classification-based methods
       <div class="border-top my-3"></div>
 <div class="row p-4" id="faq">
   <div class="col-12 bd-content">
+    <h2 class="text-center">Keynote F: 2:00pm</h2>
+  </div>
+</div>
+      <div class="speakers">
+        
+<div class="row p-4">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <div class="row">
+          <div class="col-md-2 col-sm-5">
+            <img src="https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/giorgia.jpeg?raw=true" width="100%" class="img-thumbnail" />
+          </div>
+          <div class="col-md-10 col-sm-6">
+            <div class="m-3 text-muted">
+              <h3>
+                <a href="speaker_6.html" class="main-title">
+                  Giorgia Ramponi
+                </a>
+              </h3>
+            </div>
+            <div class="m-3 text-muted">
+              <span class="card-title h3">
+                Giorgia Ramponi  /  University of Zurich.
+              </span>
+            </div>
+            <!-- <div class="m-3"> -->
+            <!--   Abstract TBD -->
+            <!-- </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <div class="border-top my-3"></div>
+<div class="row p-4" id="faq">
+  <div class="col-12 bd-content">
     <h2 class="text-center">Contributed Talks F</h2>
   </div>
 </div>
@@ -1317,6 +1283,77 @@ Our main finding is that expert interaction relaxes the representational demands
   </div>
 </div>
       </div>
+      <div class="border-top my-3"></div>
+<div class="row p-4" id="faq">
+  <div class="col-12 bd-content">
+    <h2 class="text-center">Keynote G: 4:00pm</h2>
+  </div>
+</div>
+      <div class="speakers">
+        
+<div class="row p-4">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <div class="row">
+          <div class="col-md-2 col-sm-5">
+            <img src="https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/christian_duriez.png?raw=true" width="100%" class="img-thumbnail" />
+          </div>
+          <div class="col-md-10 col-sm-6">
+            <div class="m-3 text-muted">
+              <h3>
+                <a href="speaker_1.html" class="main-title">
+                  Christian Duriez
+                </a>
+              </h3>
+            </div>
+            <div class="m-3 text-muted">
+              <span class="card-title h3">
+                Christian Duriez  /  DEFROST, Inria, Univ Lille, CNRS, Ecole Centrale de Lille, Compliance Robotics, France
+              </span>
+            </div>
+            <!-- <div class="m-3"> -->
+            <!--   Abstract TBD -->
+            <!-- </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row p-4">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <div class="row">
+          <div class="col-md-2 col-sm-5">
+            <img src="https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/Pierre_Schegg.png?raw=true" width="100%" class="img-thumbnail" />
+          </div>
+          <div class="col-md-10 col-sm-6">
+            <div class="m-3 text-muted">
+              <h3>
+                <a href="speaker_7.html" class="main-title">
+                  Pierre Schegg
+                </a>
+              </h3>
+            </div>
+            <div class="m-3 text-muted">
+              <span class="card-title h3">
+                Pierre Schegg  /  CAMIN, Inria, LIRMM, Univ Montpellier, Montpellier, France
+              </span>
+            </div>
+            <!-- <div class="m-3"> -->
+            <!--   Abstract TBD -->
+            <!-- </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div>
       <!-- <div class="border-top my-3"></div>
 <div class="row p-4" id="faq">
   <div class="col-12 bd-content">
