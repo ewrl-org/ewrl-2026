@@ -9,7 +9,18 @@
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <script>
+      window.MathJax = {
+          tex: {
+              inlineMath: [['$', '$'], ['\\(', '\\)']],
+              displayMath: [['$$', '$$'], ['\\[', '\\]']]
+          }
+      };
+    </script>
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
     <!-- SEO related meta-tags -->
     <meta name="description" content="{{ config.seo.description }}">
     <meta name="keywords" content="{{ config.seo.keywords | join(', ') }}">
