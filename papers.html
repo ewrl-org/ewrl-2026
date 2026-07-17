@@ -20,17 +20,16 @@
               displayMath: [['$$', '$$'], ['\\[', '\\]']]
           }
       };
-      document.addEventListener("DOMContentLoaded", function () {
-          const hash = window.location.hash;
-          if (!hash) return;
-
-          const trigger = document.querySelector(
-              `[data-bs-toggle="tab"][href="${hash}"], [data-bs-toggle="tab"][data-bs-target="${hash}"]`
-          );
-
-          if (trigger) {
-              bootstrap.Tab.getOrCreateInstance(trigger).show();
+      $(function () {
+          // Activate tab from URL hash
+          if (window.location.hash) {
+              $('.nav-link[href="' + window.location.hash + '"]').tab('show');
           }
+
+          // Update URL hash when a tab is clicked
+          $('.nav-link[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+              history.replaceState(null, null, e.target.hash);
+          });
       });
     </script>
 
