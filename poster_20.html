@@ -19,17 +19,6 @@
               displayMath: [['$$', '$$'], ['\\[', '\\]']]
           }
       };
-      $(function () {
-          // Activate tab from URL hash
-          if (window.location.hash) {
-              $('.nav-link[href="' + window.location.hash + '"]').tab('show');
-          }
-
-          // Update URL hash when a tab is clicked
-          $('.nav-link[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-              history.replaceState(null, null, e.target.hash);
-          });
-      });
     </script>
 
     <script
@@ -392,21 +381,12 @@ last-iterate convergence guarantees, attaining an $\epsilon$-optimal constrained
 </script>
 <!--    <script src="static/js/modules/lazyLoad.js"></script>-->
 <script>
-$(document).ready(function () {
-    console.log("tab init", window.location.hash);
-
+$(function () {
     if (window.location.hash) {
-        var tab = $('.nav-link[href="' + window.location.hash + '"]');
-
-        console.log("found tab:", tab.length);
-
-        if (tab.length) {
-            tab.tab('show');
-        }
+        $('.nav-link[href="' + window.location.hash + '"]').tab('show');
     }
 
     $('.nav-link[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-        console.log("tab changed:", e.target.hash);
         history.replaceState(null, null, e.target.hash);
     });
 });
