@@ -116,14 +116,17 @@ def schedule():
     speakers3 = [s for s in site_data["speakers"] if s["UID"] in [1,5,6,7]]
     
     data["day"] = {
-        "speakers1": speakers1,
-        "speakers2": speakers2,
-        "speakers3": speakers3,
-
+        "speakers11": [speakers1[0]],
+        "speakers12": [speakers1[1]],
+        "speakers21": [speakers2[0]],
+        "speakers22": [speakers2[1]],
+        "speakers31": [speakers3[1]],
+        "speakers32": [speakers3[2]],
+        "speakersdouble": [speakers3[0], speakers3[3]],
     }
 
     orals_perm = [13,  7, 12, 10,  2,  8, 11,  4,  3,  9,  5,  6]
-    orals_id = [116, 112,  20, 152,  99,  26, 142, 122,  14,  81, 126,   6]
+    orals_id = [126, 112,  20, 152,  99,  26, 142, 122,  14,  81, 116,   6]
     for f in range(6):
         data["day"]["orals"+str(f+1)] =  [ format_paper(by_uid["papers"][str(orals_id[number-2])]) for number in orals_perm[(2*f):(2*f+2)]]
 

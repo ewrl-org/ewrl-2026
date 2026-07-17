@@ -48,15 +48,21 @@
   >
     <div id="monday">
       <!-- Speakers -->
-      {{ components.section("Keynote Speakers") }}
+      {{ components.section("Keynote A: 9:00am") }}
       <div class="speakers">
-        {{ components.speakergroup(day.speakers1) }}
+        {{ components.speakergroup(day.speakers12)}}
       </div>
       {{ components.section("Contributed Talks A") }}
       <a href="#contributed"></a>
       <div class="papers">
         {{ components.highlightgroup(day.orals1, 1) }}
       </div>
+
+      {{ components.section("Keynote B: 2:00pm") }}
+      <div class="speakers">
+        {{ components.speakergroup(day.speakers11) }}
+      </div>
+
       {{ components.section("Contributed Talks B") }}
       <div class="papers">
         {{ components.highlightgroup(day.orals2, 1) }}
@@ -74,14 +80,18 @@
   >
     <div id="tuesday">
       <!-- Speakers -->
-      {{ components.section("Keynote Speakers") }}
+      {{ components.section("Keynote C: 9:00am") }}
       <div class="speakers">
-        {{ components.speakergroup(day.speakers2) }}
+        {{ components.speakergroup(day.speakers22) }}
       </div>
       {{ components.section("Contributed Talks C") }}
       <a href="#contributed"></a>
       <div class="papers">
         {{ components.highlightgroup(day.orals3, 1) }}
+      </div>
+      {{ components.section("Keynote D: 2:00pm") }}
+      <div class="speakers">
+        {{ components.speakergroup(day.speakers21) }}
       </div>
       {{ components.section("Contributed Talks D") }}
       <div class="papers">
@@ -103,19 +113,26 @@
   >
     <div id="wednesday">
       <!-- Speakers -->
-      {{ components.section("Keynote Speakers") }}
+      {{ components.section("Keynote E: 9:00am") }}
       <div class="speakers">
-        {{ components.speakergroup(day.speakers3) }}
+        {{ components.speakergroup(day.speakers31) }}
       </div>
       {{ components.section("Contributed Talks E") }}
       <a href="#contributed"></a>
       <div class="papers">
         {{ components.highlightgroup(day.orals5, 1) }}
       </div>
+      {{ components.section("Keynote F: 2:00pm") }}
+      <div class="speakers">
+        {{ components.speakergroup(day.speakers32) }}
       {{ components.section("Contributed Talks F") }}
       <div class="papers">
         {{ components.highlightgroup(day.orals6, 1) }}
       </div>
+      {{ components.section("Keynote G: 4:00pm") }}
+      <div class="speakers">
+        {{ components.speakergroup(day.speakersdouble) }}
+        </div>
       <!-- {{ components.section("Highlighted Papers") }} -->
       <!-- <div class="papers"> -->
       <!--   {{ components.highlightgroup(day.highlighted, 1) }} -->
