@@ -1370,7 +1370,17 @@ Our main finding is that expert interaction relaxes the representational demands
       // ----
       lazyLoader();
     };
+    $(document).ready(function () {
+        if (window.location.hash) {
+            $('.nav-link[href="' + window.location.hash + '"]').tab('show');
+        }
+
+        $('.nav-link[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+            history.replaceState(null, null, e.target.hash);
+        });
+    });
   </script>
+
 </div>
 
     </div>
