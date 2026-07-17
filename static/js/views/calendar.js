@@ -168,8 +168,8 @@ hiddenDays: [0, 4, 5, 6],
       clickSchedule(e) {
         const s = e.schedule;
         if (s.location.length > 0) {
-          window.open(s.location, "_blank");
-           // window.location.href = s.location;
+          // window.open(s.location, "_blank");
+           window.location.href = s.location;
         }
       },
     });
