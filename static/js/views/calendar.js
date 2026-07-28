@@ -112,9 +112,9 @@ hiddenDays: [0, 4, 5, 6],
   calendar.on({
     clickSchedule(e) {
       const s = e.schedule;
-      if (s.location.length > 0) {
-        window.open(s.location, "_blanket");
-      }
+      // if (s.location.length > 0) {
+      //     window.open(s.location, "_blanket");
+      // }
     },
   });
 
