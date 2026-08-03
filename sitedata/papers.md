@@ -55,7 +55,6 @@
 - [Variance-Aware Optimal Ranking in Log-Concave Random Utility Models](https://ewrl-org.github.io/ewrl-2026/poster_18.html) by Diego Alovisetti,Marco Mussi,Alberto Maria Metelli
 - [Instance-dependent Stochastic Lipschitz Bandit](https://ewrl-org.github.io/ewrl-2026/poster_106.html) by Marius Potfer,Vianney Perchet
 - [Use the Online Network If You Can: Towards Fast and Stable Reinforcement Learning](https://ewrl-org.github.io/ewrl-2026/poster_28.html) by Ahmed Hendawy,Henrik Metternich,Théo Vincent,Mahdi Kallel,Jan Peters,Carlo D'Eramo
-- [TeNet: Text-to-Network for Compact Policy Synthesis](https://ewrl-org.github.io/ewrl-2026/poster_57.html) by Ariyan Bighashdel,Kevin Sebastian Luck
 - [Swarm Counter-Swarm using Multi-Objective Multi-Agent Reinforcement Learning](https://ewrl-org.github.io/ewrl-2026/poster_167.html) by Kévin Constantin,Florian Felten,Grégoire Danoy,Changey,Guillaume STRUB
 - [How Log-Barrier Helps Exploration in Policy Optimization](https://ewrl-org.github.io/ewrl-2026/poster_19.html) by Leonardo Cesani,Matteo Papini,Marcello Restelli
 - [MAVRL: Learning Reward Functions from Multiple Feedback Types with Amortized Variational Inference](https://ewrl-org.github.io/ewrl-2026/poster_132.html) by Raphaël Baur,Yannick Metz,Maria Gkoulta,Mennatallah El-Assady,Giorgia Ramponi,Thomas Kleine Buening
@@ -132,6 +131,7 @@
 
 ### Wednesday, Poster E --- 11:00 - 12:30
 
+- [TeNet: Text-to-Network for Compact Policy Synthesis](https://ewrl-org.github.io/ewrl-2026/poster_57.html) by Ariyan Bighashdel,Kevin Sebastian Luck
 - [Multiple-Frequencies Population-Based Training](https://ewrl-org.github.io/ewrl-2026/poster_39.html) by Waël Doulazmi,Auguste Lehuger,Marin Toromanoff,Valentin Charraut,Thibault Buhet,Fabien Moutarde
 - [Improved Algorithms for Online Classification with Surrogate Losses](https://ewrl-org.github.io/ewrl-2026/poster_157.html) by Abed Razawy,Valentina Masarotto,Dirk van der Hoeven
 - [Performative Policy Gradient: Optimality in Performative Reinforcement Learning](https://ewrl-org.github.io/ewrl-2026/poster_63.html) by Debabrota Basu,Udvas Das,Brahim Driss,Uddalak Mukherjee
