@@ -263,7 +263,6 @@ const tooltip_template = (d) => `
     <div>
         <div class="tt-title">${d.title}</div>
         <p>${d.authors.join(", ")}</p>
-        <img src="${API.thumbnailPath(d)}" width=100%/>
      </div>   
 `;
 

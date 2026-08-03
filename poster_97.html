@@ -1,0 +1,544 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <script>
+      window.MathJax = {
+          tex: {
+              inlineMath: [['$', '$'], ['\\(', '\\)']],
+              displayMath: [['$$', '$$'], ['\\[', '\\]']]
+          }
+      };
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
+    <!-- SEO related meta-tags -->
+    <meta name="description" content="EWRL 2026 is the 19th European Workshop on Reinforcement Learning, held October 5–7 in Lille, France.">
+    <meta name="keywords" content="EWRL 2026, European Workshop on Reinforcement Learning, RL conference 2026, RL workshop Europe 2026, reinforcement learning, deep reinforcement learning, bandits, sequential decision, machine learning workshop Lille, RL research Europe">
+    <meta property="og:title" content="EWRL 2026: BluffJAX: Adversarial Imperfect Information Games in JAX">
+    <meta property="og:description" content="EWRL 2026 is the 19th European Workshop on Reinforcement Learning, held October 5–7 in Lille, France.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ewrl-org.github.io/ewrl-2026/">
+    <meta property="og:image" content="https://ewrl-org.github.io/ewrl-2026//static/images/main_lille.jpg">
+    <meta property="og:locale" content="en_US">
+
+    <!-- External Javascript libs_ext  -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js"
+            integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
+    <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+            integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"
+            integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js"
+            integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww="
+            crossorigin="anonymous"></script>
+
+
+    <!-- Library libs_ext -->
+    <script src="static/js/libs_ext/typeahead.bundle.js"></script>
+
+
+    <!--    Internal Libs -->
+    <script src="static/js/data/api.js"></script>
+
+    
+
+    <!-- External CSS -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY="
+          crossorigin="anonymous">
+
+    <!-- External Fonts (no google for china) -->
+    <link
+            href="static/css/Lato.css"
+            rel="stylesheet"
+    />
+    <link href="static/css/Exo.css" rel="stylesheet"/>
+    <link
+            href="static/css/Cuprum.css"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="static/css/main.css"/>
+<!--    <link rel="stylesheet" href="static/css/fa_regular.css"/>-->
+    <link rel="stylesheet" href="static/css/fa_solid.css"/>
+    <link rel="stylesheet" href="static/css/lazy_load.css"/>
+    <link rel="stylesheet" href="static/css/typeahead.css"/>
+
+    <title>EWRL 2026: BluffJAX: Adversarial Imperfect Information Games in JAX</title>
+    
+<meta name="citation_title" content="BluffJAX: Adversarial Imperfect Information Games in JAX"/>
+
+<meta name="citation_author" content="Aryaman Reddi"/>
+
+<meta name="citation_author" content="Jan Peters"/>
+
+<meta name="citation_author" content="Carlo D&#39;Eramo"/>
+
+<meta name="citation_publication_date" content="October 2026"/>
+<meta name="citation_conference_title"
+      content="European Workshop On Reinforcement Learning"/>
+<meta name="citation_inbook_title" content=""/>
+<meta name="citation_abstract" content="We introduce BluffJAX: an open-source suite of adversarial imperfect information games in JAX. We provide canonical implementations of games designed for high simulation throughputs and parallelization on GPU accelerators. Our suite consists of well-studied benchmarks such as Texas Hold’Em Poker and Kuhn Poker, as well as games that have not been studied in reinforcement learning research, such as Bluff, Stud Poker, and Kemps. We hope that implementing a variety of game mechanics and difficulties will introduce new challenges and foster novel research directions in game-theoretic methods for RL. We benchmark the throughput performance and memory usage of our environments in single and multi-GPU settings, demonstrating scaling of up to hundreds of millions of samples per second, and motivating the usage of BluffJAX over related GPU and CPU-based libraries. We benchmark reinforcement learning, tree search, and game-solving algorithms in JAX in order to provide users with baseline results and facilitate future comparisons."/>
+
+<meta name="citation_keywords" content="benchmark"/>
+
+<meta name="citation_keywords" content="games"/>
+
+<meta name="citation_keywords" content="reinforcement learning"/>
+
+<meta name="citation_keywords" content="multi agent"/>
+
+<meta name="citation_keywords" content="multi agent reinforcement learning"/>
+
+<meta name="citation_keywords" content="marl"/>
+
+<meta name="citation_keywords" content="adversarial"/>
+
+<meta name="citation_keywords" content="game theory"/>
+
+<meta name="citation_keywords" content="game theoretic"/>
+
+<meta name="citation_keywords" content="poker"/>
+
+<meta name="citation_keywords" content="bluff"/>
+
+<meta name="citation_keywords" content="werewolf"/>
+
+<meta name="citation_keywords" content="exploitability"/>
+
+<meta name="citation_keywords" content="jax"/>
+
+<meta name="citation_keywords" content="GPU"/>
+
+<meta name="citation_keywords" content="vmap"/>
+
+<meta name="citation_keywords" content="jit"/>
+
+<meta name="citation_keywords" content="jit compile"/>
+
+<meta name="citation_keywords" content="jit compilation"/>
+
+<meta name="citation_keywords" content="parallelization"/>
+
+<meta name="citation_pdf_url" content=""/>
+
+
+</head>
+
+<body>
+<!-- NAV -->
+
+<nav
+        class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto"
+        id="main-nav"
+>
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img
+              src="https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/ewrl_2026_logo_wo_text.png?raw=true"
+              width="160"
+              />
+            EWRL 2026
+        </a>
+        
+        
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+                class="collapse navbar-collapse text-right flex-grow-1"
+                id="navbarNav"
+        >
+            <ul class="navbar-nav ml-auto">
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="calendar.html">Schedule</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="call.html">Call for papers</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="help.html">Help</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- User Overrides -->
+ 
+
+<div class="container">
+    <!-- Tabs -->
+    <div class="tabs">
+         
+    </div>
+    <!-- Content -->
+    <div class="content">
+        
+
+<!-- Title -->
+<div class="pp-card m-3" style="">
+    <div class="card-header">
+        <h2 class="card-title main-title text-center" style="">
+            BluffJAX: Adversarial Imperfect Information Games in JAX
+        </h2>
+        <h3 class="card-subtitle mb-2 text-muted text-center">
+            
+            <a href="papers.html?filter=authors&search=Aryaman Reddi"
+               class="text-muted"
+            >Aryaman Reddi</a
+            >,
+            
+            <a href="papers.html?filter=authors&search=Jan Peters"
+               class="text-muted"
+            >Jan Peters</a
+            >,
+            
+            <a href="papers.html?filter=authors&search=Carlo D&#39;Eramo"
+               class="text-muted"
+            >Carlo D&#39;Eramo</a
+            >
+            
+        </h3>
+        <p class="card-text text-center">
+            <span class="">Keywords:</span>
+            
+            <a
+                    href="papers.html?filter=keywords&search=benchmark"
+                    class="text-secondary text-decoration-none"
+            >benchmark</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=games"
+                    class="text-secondary text-decoration-none"
+            >games</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=reinforcement learning"
+                    class="text-secondary text-decoration-none"
+            >reinforcement learning</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=multi agent"
+                    class="text-secondary text-decoration-none"
+            >multi agent</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=multi agent reinforcement learning"
+                    class="text-secondary text-decoration-none"
+            >multi agent reinforcement learning</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=marl"
+                    class="text-secondary text-decoration-none"
+            >marl</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=adversarial"
+                    class="text-secondary text-decoration-none"
+            >adversarial</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=game theory"
+                    class="text-secondary text-decoration-none"
+            >game theory</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=game theoretic"
+                    class="text-secondary text-decoration-none"
+            >game theoretic</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=poker"
+                    class="text-secondary text-decoration-none"
+            >poker</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=bluff"
+                    class="text-secondary text-decoration-none"
+            >bluff</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=werewolf"
+                    class="text-secondary text-decoration-none"
+            >werewolf</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=exploitability"
+                    class="text-secondary text-decoration-none"
+            >exploitability</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=jax"
+                    class="text-secondary text-decoration-none"
+            >jax</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=GPU"
+                    class="text-secondary text-decoration-none"
+            >GPU</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=vmap"
+                    class="text-secondary text-decoration-none"
+            >vmap</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=jit"
+                    class="text-secondary text-decoration-none"
+            >jit</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=jit compile"
+                    class="text-secondary text-decoration-none"
+            >jit compile</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=jit compilation"
+                    class="text-secondary text-decoration-none"
+            >jit compilation</a
+            >,
+            
+            <a
+                    href="papers.html?filter=keywords&search=parallelization"
+                    class="text-secondary text-decoration-none"
+            >parallelization</a
+            >
+            
+        </p>
+        <div class="text-center p-3">
+          We introduce BluffJAX: an open-source suite of adversarial imperfect information games in JAX. We provide canonical implementations of games designed for high simulation throughputs and parallelization on GPU accelerators. Our suite consists of well-studied benchmarks such as Texas Hold’Em Poker and Kuhn Poker, as well as games that have not been studied in reinforcement learning research, such as Bluff, Stud Poker, and Kemps. We hope that implementing a variety of game mechanics and difficulties will introduce new challenges and foster novel research directions in game-theoretic methods for RL. We benchmark the throughput performance and memory usage of our environments in single and multi-GPU settings, demonstrating scaling of up to hundreds of millions of samples per second, and motivating the usage of BluffJAX over related GPU and CPU-based libraries. We benchmark reinforcement learning, tree search, and game-solving algorithms in JAX in order to provide users with baseline results and facilitate future comparisons.
+            <!-- <a class="card-link" data-toggle="collapse" role="button" -->
+            <!--    href="#details"> -->
+            <!--     Abstract -->
+            <!-- </a> -->
+            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
+            <!--     Paper -->
+            <!-- </a> -->
+            <!--  -->
+            <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
+            <!--     Code -->
+            <!-- </a> -->
+            <!--  -->
+        </div>
+    </div>
+</div>
+<!-- <div id="details" class="pp-card m-3 collapse"> -->
+<!--     <div class="card-body"> -->
+<!--         <div class="card-text"> -->
+<!--             <div id="abstractExample"> -->
+<!--                 <span class="font-weight-bold">Abstract:</span> -->
+<!--                 We introduce BluffJAX: an open-source suite of adversarial imperfect information games in JAX. We provide canonical implementations of games designed for high simulation throughputs and parallelization on GPU accelerators. Our suite consists of well-studied benchmarks such as Texas Hold’Em Poker and Kuhn Poker, as well as games that have not been studied in reinforcement learning research, such as Bluff, Stud Poker, and Kemps. We hope that implementing a variety of game mechanics and difficulties will introduce new challenges and foster novel research directions in game-theoretic methods for RL. We benchmark the throughput performance and memory usage of our environments in single and multi-GPU settings, demonstrating scaling of up to hundreds of millions of samples per second, and motivating the usage of BluffJAX over related GPU and CPU-based libraries. We benchmark reinforcement learning, tree search, and game-solving algorithms in JAX in order to provide users with baseline results and facilitate future comparisons. -->
+<!--             </div> -->
+<!--         </div> -->
+<!--         <p></p> -->
+<!--     </div> -->
+<!-- </div> -->
+
+<!-- <h5 style="color: red;"> -->
+<!--     Add content for posters. This could be a video, embedded pdf, chat room .... -->
+<!-- </h5> -->
+
+<!-- <\!-- Chat -\-> -->
+<!-- <div class="border-top my-3"></div>
+<div class="row p-4" id="faq">
+  <div class="col-12 bd-content">
+    <h2 class="text-center">Example Chat</h2>
+  </div>
+</div> -->
+
+<!-- <div class="col-md-12 col-xs-12 p-2"> -->
+<!--     <div id="gitter" class="slp"> -->
+<!--         <center> -->
+<!--             <iframe frameborder="0" -->
+<!--                     src="https:///channel/paper_97?layout=embedded" -->
+<!--                     height="700px" width="100%"></iframe> -->
+<!--         </center> -->
+<!--     </div> -->
+<!-- </div> -->
+
+<!-- <\!-- Slides Live-\-> -->
+
+<!-- <div class="border-top my-3"></div>
+<div class="row p-4" id="faq">
+  <div class="col-12 bd-content">
+    <h2 class="text-center">Example SlidesLive</h2>
+  </div>
+</div> -->
+
+<!-- <div class="col-md-12 col-xs-12 my-auto p-2"> -->
+<!--     <div id="presentation-embed" class="slp my-auto"></div> -->
+<!--     <script src='https://slideslive.com/embed_presentation.js'></script> -->
+<!--     <script> -->
+<!--       embed = new SlidesLiveEmbed("presentation-embed", { -->
+<!--         presentationId: -->
+<!--           "38922815", -->
+<!--         autoPlay: false, // change to true to autoplay the embedded presentation -->
+<!--         verticalEnabled: true, -->
+<!--         verticalWhenWidthLte: 500, -->
+<!--         allowHiddenControlsWhenPaused: true, -->
+<!--         hideTitle: true, -->
+<!--       }); -->
+<!--     </script> -->
+<!-- </div> -->
+
+
+<!-- <\!-- Chat -\-> -->
+
+<!-- <div class="border-top my-3"></div>
+<div class="row p-4" id="faq">
+  <div class="col-12 bd-content">
+    <h2 class="text-center">Example Poster</h2>
+  </div>
+</div> -->
+
+<!-- <div role="main" id="pdf_view"></div> -->
+
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.3.200/build/pdf.min.js"></script> -->
+<!-- <script src="static/js/modules/pdfRender.js"></script> -->
+<!-- <script> -->
+<!--   $(document).ready(() => { -->
+<!--     // render first page of PDF to div -->
+<!--     // PDF name can be bound to variable -- e.g. paper.content.poster_link -->
+<!--     const pdfFile = -->
+<!--       " /static/images/GLTR_poster.pdf"; -->
+<!--     initPDFViewer(pdfFile, "#pdf_view"); -->
+<!--   }); -->
+<!-- </script> -->
+
+
+<!-- 
+    </div>
+</div>
+
+
+
+<!-- Google Analytics -->
+<script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  gtag("js", new Date());
+  gtag("config", "UA-");
+</script>
+
+<!-- Footer -->
+<footer class="footer bg-light p-4">
+    <div class="container">
+<img src="https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/ewrl_2026_logo_wo_text.png?raw=true"
+              width="160"
+              />
+        <p class="float-right"><a href="#">Back to Top</a></p>
+        <p class="text-center">© 2026 EWRL 2026 Organization Committee
+          
+        </p>
+        
+    </div>
+</footer>
+
+<!-- Code for hash tags -->
+<script type="text/javascript">
+  $(document).ready(function () {
+    if (window.location.hash !== "") {
+      $(`a[href="${window.location.hash}"]`).tab("show");
+    }
+
+    $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+      const hash = $(e.target).attr("href");
+      if (hash.substr(0, 1) === "#") {
+        const position = $(window).scrollTop();
+        window.location.replace(`#${hash.substr(1)}`);
+        $(window).scrollTop(position);
+      }
+    });
+  });
+</script>
+<!--    <script src="static/js/modules/lazyLoad.js"></script>-->
+<script>
+$(function () {
+    if (window.location.hash) {
+        $('.nav-link[href="' + window.location.hash + '"]').tab('show');
+    }
+
+    $('.nav-link[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+        history.replaceState(null, null, e.target.hash);
+    });
+});
+</script>
+
+</body>
+</html>
