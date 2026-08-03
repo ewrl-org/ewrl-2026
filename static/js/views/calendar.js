@@ -52,8 +52,10 @@ async function make_cal(handleResize = true) {
 
   // determine min date
   const min_date = d3.min(events.map((e) => e.start));
-  let min_hours = 8;
-  let max_hours = 20;
+  let min_hours =
+    d3.min(events.map((e) => moment(e.start).tz(timezoneName).hours())) - 1;
+  let max_hours =
+    d3.max(events.map((e) => moment(e.end).tz(timezoneName).hours())) + 1;
   if (min_hours < 0 || max_hours > 24) {
     min_hours = 0;
     max_hours = 24;
@@ -63,7 +65,6 @@ async function make_cal(handleResize = true) {
   const calendar = new Calendar("#calendar", {
     defaultView: "week",
     isReadOnly: true,
-hiddenDays: [0, 4, 5, 6],
     // useDetailPopup: true,
     taskView: false,
     scheduleView: ["time"],
@@ -105,16 +106,14 @@ hiddenDays: [0, 4, 5, 6],
       },
     },
   });
-
   calendar.setDate(Date.parse(min_date));
-
   calendar.createSchedules(events);
   calendar.on({
     clickSchedule(e) {
       const s = e.schedule;
-      // if (s.location.length > 0) {
-      //     window.open(s.location, "_blanket");
-      // }
+      if (s.location.length > 0) {
+        window.open(s.location, "_blanket");
+      }
     },
   });
 
@@ -168,8 +167,7 @@ hiddenDays: [0, 4, 5, 6],
       clickSchedule(e) {
         const s = e.schedule;
         if (s.location.length > 0) {
-          // window.open(s.location, "_blank");
-           window.location.href = s.location;
+          window.open(s.location, "_blanket");
         }
       },
     });

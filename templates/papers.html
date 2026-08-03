@@ -1,5 +1,5 @@
-{% set active_page = "Papers" %}
-{% set page_title = "Papers" %}
+{% set active_page = "Posters" %}
+{% set page_title = "Posters" %}
 
 {% extends "base.html" %}
 {% block head %}
@@ -27,6 +27,9 @@
   </li>
   <li class="nav-item">
     <a class="nav-link text-muted" href="paper_vis.html">Visualization</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-muted" href="list_posters.html">List</a>
   </li>
 </ul>
 
@@ -115,34 +118,34 @@
   <div class="col-12 col-lg-4">
     <button class="btn btn-outline-secondary reshuffle">shuffle</button>
     <div class="float-right">
-      <div
-        class="btn-group btn-group-toggle render_option"
-        data-toggle="buttons"
-      >
-        <label class="btn btn-outline-secondary active">
-          <input type="radio" name="options" value="mini" autocomplete="off" />
-          mini
-        </label>
-        <label class="btn btn-outline-secondary active">
-          <input
-            type="radio"
-            name="options"
-            value="compact"
-            autocomplete="off"
-            checked
-          />
-          compact
-        </label>
-        <label class="btn btn-outline-secondary">
-          <input
-            type="radio"
-            name="options"
-            value="detail"
-            autocomplete="off"
-          />
-          detail
-        </label>
-      </div>
+      <!-- <div -->
+      <!--   class="btn-group btn-group-toggle render_option" -->
+      <!--   data-toggle="buttons" -->
+      <!-- > -->
+      <!--   <label class="btn btn-outline-secondary active"> -->
+      <!--     <input type="radio" name="options" value="mini" autocomplete="off" /> -->
+      <!--     mini -->
+      <!--   </label> -->
+      <!--   <label class="btn btn-outline-secondary active"> -->
+      <!--     <input -->
+      <!--       type="radio" -->
+      <!--       name="options" -->
+      <!--       value="compact" -->
+      <!--       autocomplete="off" -->
+      <!--       checked -->
+      <!--     /> -->
+      <!--     compact -->
+      <!--   </label> -->
+      <!--   <label class="btn btn-outline-secondary"> -->
+      <!--     <input -->
+      <!--       type="radio" -->
+      <!--       name="options" -->
+      <!--       value="detail" -->
+      <!--       autocomplete="off" -->
+      <!--     /> -->
+      <!--     detail -->
+      <!--   </label> -->
+      <!-- </div> -->
     </div>
   </div>
 </div>

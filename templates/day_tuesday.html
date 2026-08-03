@@ -1,0 +1,69 @@
+{% set active_page = "Schedule" %}
+{% set page_title = "Schedule" %}
+
+{% extends "base.html" %}
+{% block head %}
+{{ super() }}
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tippy.js@6/dist/tippy-bundle.umd.min.js"></script>
+
+<script src="static/js/modules/icons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
+{% endblock %}
+
+{% block tabs %}
+<ul class="nav nav-pills justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link text-muted" href="calendar.html">Calendar</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-muted" href="day_monday.html">Monday</a>
+  </li>
+  <li class="nav-item active">
+    <a
+      class="nav-link text-muted active"
+      data-toggle="tab"
+      href="#tab-browse"
+      role="tab"
+      aria-controls="nav-home"
+      aria-selected="true"
+      >Tuesday
+    </a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link text-muted" href="day_wednesday.html">Wednesday</a>
+  </li>
+</ul>
+
+{% endblock %}
+
+{% block content %}
+    <div id="tuesday">
+      <!-- Speakers -->
+      {{ components.section("Keynote C: 9:00am") }}
+      <div class="speakers">
+        {{ components.speakergroup(day.speakers22) }}
+      </div>
+      {{ components.section("Contributed Talks C") }}
+      <a href="#contributed"></a>
+      <div class="papers">
+        {{ components.highlightgroup(day.orals3, 1) }}
+      </div>
+      {{ components.section("Keynote D: 2:00pm") }}
+      <div class="speakers">
+        {{ components.speakergroup(day.speakers21) }}
+      </div>
+      {{ components.section("Contributed Talks D") }}
+      <div class="papers">
+        {{ components.highlightgroup(day.orals4, 1) }}
+      </div>
+      <!-- {{ components.section("Highlighted Papers") }} -->
+      <!-- <div class="papers"> -->
+      <!--   {{ components.highlightgroup(day.highlighted, 1) }} -->
+      <!-- </div> -->
+    </div>
+
+
+{% endblock %}

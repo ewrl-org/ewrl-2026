@@ -28,7 +28,7 @@ def main(site_data_path):
         elif typ == "yml":
             site_data[name] = yaml.load(open(f).read(), Loader=yaml.SafeLoader)
 
-    for typ in ["papers", "speakers"]:
+    for typ in ["papers", "speakers", "orals"]:
         by_uid[typ] = {}
         for p in site_data[typ]:
             by_uid[typ][p["UID"]] = p
@@ -90,12 +90,17 @@ def papers():
     data["papers"] = site_data["papers"]
     return render_template("papers.html", **data)
 
-
 @app.route("/call.html")
 def call():
     data = _data()
     data["call"] = open("sitedata/call.md").read()
     return render_template("call.html", **data)
+
+@app.route("/list_posters.html")
+def paper_list():
+    data = _data()
+    data["papers"] = open("sitedata/papers.md").read()
+    return render_template("list_posters.html", **data)
 
 @app.route("/tba_schedule.html")
 def tba_schedule():
@@ -128,9 +133,71 @@ def schedule():
     orals_perm = [13,  7, 12, 10,  2,  8, 11,  4,  3,  9,  5,  6]
     orals_id = [126, 112,  20, 152,  99,  26, 142, 122,  14,  81, 116,   6]
     for f in range(6):
-        data["day"]["orals"+str(f+1)] =  [ format_paper(by_uid["papers"][str(orals_id[number-2])]) for number in orals_perm[(2*f):(2*f+2)]]
+        data["day"]["orals"+str(f+1)] =  [ format_paper(by_uid["orals"][str(orals_id[number-2])]) for number in orals_perm[(2*f):(2*f+2)]]
 
     return render_template("schedule.html", **data)
+
+
+@app.route("/day_monday.html")
+def monday():
+    data = _data()
+
+    speakers1 = [s for s in site_data["speakers"] if s["UID"] in [8,4]]
+    
+    data["day"] = {
+        "speakers11": [speakers1[0]],
+        "speakers12": [speakers1[1]],
+    }
+
+    orals_perm = [13,  7, 12, 10,  2,  8, 11,  4,  3,  9,  5,  6]
+    orals_id = [126, 112,  20, 152,  99,  26, 142, 122,  14,  81, 116,   6]
+    for f in range(6):
+        data["day"]["orals"+str(f+1)] =  [ format_paper(by_uid["orals"][str(orals_id[number-2])]) for number in orals_perm[(2*f):(2*f+2)]]
+
+    return render_template("day_monday.html", **data)
+
+
+
+@app.route("/day_tuesday.html")
+def tuesday():
+    data = _data()
+
+    speakers2 = [s for s in site_data["speakers"] if s["UID"] in [3,2]]
+    
+    data["day"] = {
+        "speakers21": [speakers2[0]],
+        "speakers22": [speakers2[1]],
+    }
+
+    orals_perm = [13,  7, 12, 10,  2,  8, 11,  4,  3,  9,  5,  6]
+    orals_id = [126, 112,  20, 152,  99,  26, 142, 122,  14,  81, 116,   6]
+    for f in range(6):
+        data["day"]["orals"+str(f+1)] =  [ format_paper(by_uid["orals"][str(orals_id[number-2])]) for number in orals_perm[(2*f):(2*f+2)]]
+
+    return render_template("day_tuesday.html", **data)
+
+
+
+@app.route("/day_wednesday.html")
+def wednesday():
+    data = _data()
+
+    speakers3 = [s for s in site_data["speakers"] if s["UID"] in [1,5,6,7]]
+    
+    data["day"] = {
+        "speakers31": [speakers3[1]],
+        "speakers32": [speakers3[2]],
+        "speakersdouble": [speakers3[0], speakers3[3]],
+    }
+
+    orals_perm = [13,  7, 12, 10,  2,  8, 11,  4,  3,  9,  5,  6]
+    orals_id = [126, 112,  20, 152,  99,  26, 142, 122,  14,  81, 116,   6]
+    for f in range(6):
+        data["day"]["orals"+str(f+1)] =  [ format_paper(by_uid["orals"][str(orals_id[number-2])]) for number in orals_perm[(2*f):(2*f+2)]]
+
+    return render_template("day_wednesday.html", **data)
+
+
 
 
 def extract_list_field(v, key):

@@ -1069,7 +1069,7 @@
         var defaultClassNames = {
             wrapper: "twitter-typeahead",
             input: "tt-input",
-            hint: "tt-hint",
+            // hint: "tt-hint",
             menu: "tt-menu",
             dataset: "tt-dataset",
             suggestion: "tt-suggestion",

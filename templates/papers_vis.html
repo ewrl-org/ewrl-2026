@@ -1,4 +1,4 @@
-{% set page_title = "Paper Explorer" %}
+{% set page_title = "Poster Explorer" %}
 {% extends "base.html" %}
 {% block head %}
 {{ super() }}
@@ -36,6 +36,9 @@
       aria-selected="true"
       >Visualization
     </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-muted" href="list_posters.html">List</a>
   </li>
 </ul>
 {% endblock %}
@@ -153,6 +156,9 @@
     tippy("[data-tippy-content]", { trigger: "mouseenter focus" });
   });
 </script>
+<br>
+<br>
+<br>
 {% endblock %}
 
 {% block footer %}
@@ -167,5 +173,5 @@
   </div>
 </div>
 <script src="static/js/modules/gdprCookies.js"></script>
-
 {% endblock %}
+
