@@ -27,6 +27,9 @@
         <h2 class="card-title main-title text-center" style="">
             {{paper.title}}
         </h2>
+        <h4 class="card-subtitle text-center">
+        {{paper.day_name}} -- {{paper.hour}}
+        </h4>
         <h3 class="card-subtitle mb-2 text-muted text-center">
             {% for author in paper.authors %}
             <a href="papers.html?filter=authors&search={{author}}"

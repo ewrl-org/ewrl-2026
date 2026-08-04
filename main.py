@@ -225,6 +225,7 @@ def format_paper(v):
         "recs": [],
         "sessions": list_fields["sessions"],
         "day": v["day"],
+        "day_name": v["day_name"],
         "hour": v["hour"],
         # links to external content per poster
         "pdf_url": v.get("pdf_url", ""),  # render poster from this PDF
