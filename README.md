@@ -47,7 +47,6 @@ If you need an invitation letter for visa purposes please contact [ewrl-2026@inr
 
 - student (early bird, until Sept. 10th): 170€ (10€ conference fees + 160€ catering fees)
 - other (early bird, until Sept. 10th): 270€ (20€ conference fees + 250€ catering fees)
-
 - student (late registration, from Sept. 11th): 200€ (10€ conference fees + 190€ catering fees)
 - other (later registration, from Sept. 11th): 350€ (20€ conference fees + 330€ catering fees)
 
