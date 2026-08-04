@@ -26,7 +26,7 @@
     <!-- SEO related meta-tags -->
     <meta name="description" content="EWRL 2026 is the 19th European Workshop on Reinforcement Learning, held October 5–7 in Lille, France.">
     <meta name="keywords" content="EWRL 2026, European Workshop on Reinforcement Learning, RL conference 2026, RL workshop Europe 2026, reinforcement learning, deep reinforcement learning, bandits, sequential decision, machine learning workshop Lille, RL research Europe">
-    <meta property="og:title" content="EWRL 2026: Differentiating Bisimulation Metrics: A Framework for Parametric Markov Chain Fitting via Bicausal Optimal Transport">
+    <meta property="og:title" content="EWRL 2026: Reinforcement Learning with Multi-Step Lookahead Information Via Adaptive Batching">
     <meta property="og:description" content="EWRL 2026 is the 19th European Workshop on Reinforcement Learning, held October 5–7 in Lille, France.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ewrl-org.github.io/ewrl-2026/">
@@ -94,32 +94,23 @@
     <link rel="stylesheet" href="static/css/lazy_load.css"/>
     <link rel="stylesheet" href="static/css/typeahead.css"/>
 
-    <title>EWRL 2026: Differentiating Bisimulation Metrics: A Framework for Parametric Markov Chain Fitting via Bicausal Optimal Transport</title>
+    <title>EWRL 2026: Reinforcement Learning with Multi-Step Lookahead Information Via Adaptive Batching</title>
     
-<meta name="citation_title" content="Differentiating Bisimulation Metrics: A Framework for Parametric Markov Chain Fitting via Bicausal Optimal Transport"/>
+<meta name="citation_title" content="Reinforcement Learning with Multi-Step Lookahead Information Via Adaptive Batching"/>
 
-<meta name="citation_author" content="Sergio Calo"/>
-
-<meta name="citation_author" content="Amy Zhang"/>
-
-<meta name="citation_author" content="Javier Segovia-Aguas"/>
-
-<meta name="citation_author" content="Anders Jonsson"/>
+<meta name="citation_author" content="Nadav Merlis"/>
 
 <meta name="citation_publication_date" content="October 2026"/>
 <meta name="citation_conference_title"
       content="European Workshop On Reinforcement Learning"/>
 <meta name="citation_inbook_title" content=""/>
-<meta name="citation_abstract" content="Many problems in sequential decision-making, such as imitation learning from observations, state-space compression, world-model learning, and sim-to-real transfer, can be reduced to learning a model such that a notion of distance  with respect to the target process is minimized.  We consider this general framework and consider the bisimulation metric, equivalently Bicausal Optimal Transport (BOT), as the notion of distance to minimize. We show that BOT, since it can be formulated as a linear program (LP), is differentiable with respect to the model dynamics. We then derive an exact closed-form gradient via the envelope theorem applied to the LP saddle point.  The result is a general algorithm, Differentiable Bicausal Optimal Transport (D-BOT), that can be applied to each of the problems above. The proposed algorithm learns the best model by alternating between distance computation and gradient steps.  We apply D-BOT for three different settings: state-space compression,
-parametric model learning, and imitation learning from observations (ILfO). We show empirical results that confirm the viability of all three instantiations."/>
+<meta name="citation_abstract" content="We study tabular reinforcement learning problems with multiple steps of lookahead information. Before acting, the learner observes $\ell$ steps of future transition and reward realizations: the exact state the agent would reach and the rewards it would collect under any possible course of action. While it has been shown that such information can drastically boost the value, finding the optimal policy is NP-hard, and it is common to apply one of two tractable heuristics: processing the lookahead in chunks of predefined sizes (&#39;fixed batching policies&#39;), and model predictive control. We first illustrate the problems with these two approaches and propose utilizing the lookahead in adaptive (state-dependent) batches; we refer to such policies as adaptive batching policies (ABPs). We derive the optimal Bellman equations for these strategies and design an optimistic regret-minimizing algorithm that enables learning the optimal ABP when interacting with unknown environments. Our regret bounds are order-optimal up to a potential factor of the lookahead horizon $\ell$, which can usually be considered a small constant."/>
 
-<meta name="citation_keywords" content="Reinforcement learning"/>
+<meta name="citation_keywords" content="Reinforcement Learning"/>
 
-<meta name="citation_keywords" content="optimal transport"/>
+<meta name="citation_keywords" content="Lookahead Information"/>
 
-<meta name="citation_keywords" content="representation learning"/>
-
-<meta name="citation_keywords" content="imitation learning"/>
+<meta name="citation_keywords" content="Regret Minimization"/>
 
 <meta name="citation_pdf_url" content=""/>
 
@@ -199,31 +190,16 @@ parametric model learning, and imitation learning from observations (ILfO). We s
 <div class="pp-card m-3" style="">
     <div class="card-header">
         <h2 class="card-title main-title text-center" style="">
-            Differentiating Bisimulation Metrics: A Framework for Parametric Markov Chain Fitting via Bicausal Optimal Transport
+            Reinforcement Learning with Multi-Step Lookahead Information Via Adaptive Batching
         </h2>
         <h4 class="card-subtitle text-center">
-        Tuesday -- 11:00 - 12:30
+        Monday -- 11:00 - 12:30
         </h4>
         <h3 class="card-subtitle mb-2 text-muted text-center">
             
-            <a href="papers.html?filter=authors&search=Sergio Calo"
+            <a href="papers.html?filter=authors&search=Nadav Merlis"
                class="text-muted"
-            >Sergio Calo</a
-            >,
-            
-            <a href="papers.html?filter=authors&search=Amy Zhang"
-               class="text-muted"
-            >Amy Zhang</a
-            >,
-            
-            <a href="papers.html?filter=authors&search=Javier Segovia-Aguas"
-               class="text-muted"
-            >Javier Segovia-Aguas</a
-            >,
-            
-            <a href="papers.html?filter=authors&search=Anders Jonsson"
-               class="text-muted"
-            >Anders Jonsson</a
+            >Nadav Merlis</a
             >
             
         </h3>
@@ -231,33 +207,26 @@ parametric model learning, and imitation learning from observations (ILfO). We s
             <span class="">Keywords:</span>
             
             <a
-                    href="papers.html?filter=keywords&search=Reinforcement learning"
+                    href="papers.html?filter=keywords&search=Reinforcement Learning"
                     class="text-secondary text-decoration-none"
-            >Reinforcement learning</a
+            >Reinforcement Learning</a
             >,
             
             <a
-                    href="papers.html?filter=keywords&search=optimal transport"
+                    href="papers.html?filter=keywords&search=Lookahead Information"
                     class="text-secondary text-decoration-none"
-            >optimal transport</a
+            >Lookahead Information</a
             >,
             
             <a
-                    href="papers.html?filter=keywords&search=representation learning"
+                    href="papers.html?filter=keywords&search=Regret Minimization"
                     class="text-secondary text-decoration-none"
-            >representation learning</a
-            >,
-            
-            <a
-                    href="papers.html?filter=keywords&search=imitation learning"
-                    class="text-secondary text-decoration-none"
-            >imitation learning</a
+            >Regret Minimization</a
             >
             
         </p>
         <div class="text-center p-3">
-          Many problems in sequential decision-making, such as imitation learning from observations, state-space compression, world-model learning, and sim-to-real transfer, can be reduced to learning a model such that a notion of distance  with respect to the target process is minimized.  We consider this general framework and consider the bisimulation metric, equivalently Bicausal Optimal Transport (BOT), as the notion of distance to minimize. We show that BOT, since it can be formulated as a linear program (LP), is differentiable with respect to the model dynamics. We then derive an exact closed-form gradient via the envelope theorem applied to the LP saddle point.  The result is a general algorithm, Differentiable Bicausal Optimal Transport (D-BOT), that can be applied to each of the problems above. The proposed algorithm learns the best model by alternating between distance computation and gradient steps.  We apply D-BOT for three different settings: state-space compression,
-parametric model learning, and imitation learning from observations (ILfO). We show empirical results that confirm the viability of all three instantiations.
+          We study tabular reinforcement learning problems with multiple steps of lookahead information. Before acting, the learner observes $\ell$ steps of future transition and reward realizations: the exact state the agent would reach and the rewards it would collect under any possible course of action. While it has been shown that such information can drastically boost the value, finding the optimal policy is NP-hard, and it is common to apply one of two tractable heuristics: processing the lookahead in chunks of predefined sizes (&#39;fixed batching policies&#39;), and model predictive control. We first illustrate the problems with these two approaches and propose utilizing the lookahead in adaptive (state-dependent) batches; we refer to such policies as adaptive batching policies (ABPs). We derive the optimal Bellman equations for these strategies and design an optimistic regret-minimizing algorithm that enables learning the optimal ABP when interacting with unknown environments. Our regret bounds are order-optimal up to a potential factor of the lookahead horizon $\ell$, which can usually be considered a small constant.
             <!-- <a class="card-link" data-toggle="collapse" role="button" -->
             <!--    href="#details"> -->
             <!--     Abstract -->
@@ -278,8 +247,7 @@ parametric model learning, and imitation learning from observations (ILfO). We s
 <!--         <div class="card-text"> -->
 <!--             <div id="abstractExample"> -->
 <!--                 <span class="font-weight-bold">Abstract:</span> -->
-<!--                 Many problems in sequential decision-making, such as imitation learning from observations, state-space compression, world-model learning, and sim-to-real transfer, can be reduced to learning a model such that a notion of distance  with respect to the target process is minimized.  We consider this general framework and consider the bisimulation metric, equivalently Bicausal Optimal Transport (BOT), as the notion of distance to minimize. We show that BOT, since it can be formulated as a linear program (LP), is differentiable with respect to the model dynamics. We then derive an exact closed-form gradient via the envelope theorem applied to the LP saddle point.  The result is a general algorithm, Differentiable Bicausal Optimal Transport (D-BOT), that can be applied to each of the problems above. The proposed algorithm learns the best model by alternating between distance computation and gradient steps.  We apply D-BOT for three different settings: state-space compression,
-parametric model learning, and imitation learning from observations (ILfO). We show empirical results that confirm the viability of all three instantiations. -->
+<!--                 We study tabular reinforcement learning problems with multiple steps of lookahead information. Before acting, the learner observes $\ell$ steps of future transition and reward realizations: the exact state the agent would reach and the rewards it would collect under any possible course of action. While it has been shown that such information can drastically boost the value, finding the optimal policy is NP-hard, and it is common to apply one of two tractable heuristics: processing the lookahead in chunks of predefined sizes (&#39;fixed batching policies&#39;), and model predictive control. We first illustrate the problems with these two approaches and propose utilizing the lookahead in adaptive (state-dependent) batches; we refer to such policies as adaptive batching policies (ABPs). We derive the optimal Bellman equations for these strategies and design an optimistic regret-minimizing algorithm that enables learning the optimal ABP when interacting with unknown environments. Our regret bounds are order-optimal up to a potential factor of the lookahead horizon $\ell$, which can usually be considered a small constant. -->
 <!--             </div> -->
 <!--         </div> -->
 <!--         <p></p> -->
@@ -302,7 +270,7 @@ parametric model learning, and imitation learning from observations (ILfO). We s
 <!--     <div id="gitter" class="slp"> -->
 <!--         <center> -->
 <!--             <iframe frameborder="0" -->
-<!--                     src="https:///channel/paper_101?layout=embedded" -->
+<!--                     src="https:///channel/paper_1?layout=embedded" -->
 <!--                     height="700px" width="100%"></iframe> -->
 <!--         </center> -->
 <!--     </div> -->
