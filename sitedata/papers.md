@@ -87,7 +87,6 @@
 - [A Perturbation Approach to Unconstrained Linear Bandits](https://ewrl-org.github.io/ewrl-2026/poster_153.html) by Andrew Jacobsen, Dorian Baudry, Shinji Ito, Nicolò Cesa-Bianchi
 - [Hierarchical Goal Abstractions via Learned Subset Relations](https://ewrl-org.github.io/ewrl-2026/poster_117.html) by Fabian Wurzberger, Sebastian Gottwald, Zeqiang Zhang, Daniel Alexander Braun
 - [SHARPIE: A Modular Framework for Reinforcement Learning and Human-AI Interaction Experiments](https://ewrl-org.github.io/ewrl-2026/poster_70.html) by Libio Goncalves Braz, Kevin Godin-Dubois, Floris den Hengst, Hüseyin Aydın, Kim Baraka, Frans A Oliehoek, Shihan Wang
-- [Times Series Meet MDPs for Patient Follow Up](https://ewrl-org.github.io/ewrl-2026/poster_147.html) by Michalak Nicolas, Emilie Kaufmann, Timothée Mathieu, Philippe Preux
 - [MODIP: Efficient Model-Based Optimization for Diffusion Policies](https://ewrl-org.github.io/ewrl-2026/poster_93.html) by Zakariae EL ASRI, Philippe Gratias-Quiquandon, Nicolas THOME, Olivier Sigaud
 - [Differentiating Bisimulation Metrics: A Framework for Parametric Markov Chain Fitting via Bicausal Optimal Transport](https://ewrl-org.github.io/ewrl-2026/poster_101.html) by Sergio Calo, Amy Zhang, Javier Segovia-Aguas, Anders Jonsson
 - [A Goal-Set Characterization of Task Composition in the Boolean Task Algebra](https://ewrl-org.github.io/ewrl-2026/poster_102.html) by Eduardo Terres-Caballero, Herke van Hoof
@@ -96,6 +95,8 @@
 - [A Survey of Reinforcement Learning for Autonomous Air Combat: Current Progresses and Limitations](https://ewrl-org.github.io/ewrl-2026/poster_55.html) by Alex Pierron, Thibault Lahire
 - [Robust Successor Features](https://ewrl-org.github.io/ewrl-2026/poster_131.html) by Erik Nikulski, Yamen Habib, Vicenç Gomez, Anders Jonsson, Rubén Moreno-Bote, Javier Segovia-Aguas
 - [Who's Winning? Identifying Nash Equilibrium from Improvement Feedback](https://ewrl-org.github.io/ewrl-2026/poster_154.html) by Cyrille Kone, Giorgia Ramponi
+- [MESHA: Mechanism-Enforced Sequential Halving for Strategic Linear Bandits](https://ewrl-org.github.io/ewrl-2026/poster_71.html) by Xin Li, Zixin Zhong
+
 
 ### Tuesday, Poster D --- 16:00 - 18:00
 
@@ -134,8 +135,8 @@
 
 - [Multiple-Frequencies Population-Based Training](https://ewrl-org.github.io/ewrl-2026/poster_39.html) by Waël Doulazmi, Auguste Lehuger, Marin Toromanoff, Valentin Charraut, Thibault Buhet, Fabien Moutarde
 - [Improved Algorithms for Online Classification with Surrogate Losses](https://ewrl-org.github.io/ewrl-2026/poster_157.html) by Abed Razawy, Valentina Masarotto, Dirk van der Hoeven
+- [Times Series Meet MDPs for Patient Follow Up](https://ewrl-org.github.io/ewrl-2026/poster_147.html) by Michalak Nicolas, Emilie Kaufmann, Timothée Mathieu, Philippe Preux
 - [Performative Policy Gradient: Optimality in Performative Reinforcement Learning](https://ewrl-org.github.io/ewrl-2026/poster_63.html) by Debabrota Basu, Udvas Das, Brahim Driss, Uddalak Mukherjee
-- [MESHA: Mechanism-Enforced Sequential Halving for Strategic Linear Bandits](https://ewrl-org.github.io/ewrl-2026/poster_71.html) by Xin Li, Zixin Zhong
 - [Plasticity-Based Analysis of Recent CNN Encoders in Pixel-Based RL](https://ewrl-org.github.io/ewrl-2026/poster_75.html) by Thomas Delliaux, Vincent Francois-Lavet, Emmanuel Rachelson
 - [Hierarchical inference with a finite offload queue](https://ewrl-org.github.io/ewrl-2026/poster_163.html) by Afroditi Letsiou, Jaya Prakash Champati, Ayalvadi Ganesh, James Richard Gross, Parimal Parag
 - [Guided Flow Policy: Learning from High-Value Actions in Offline Reinforcement Learning](https://ewrl-org.github.io/ewrl-2026/poster_115.html) by Franki Nguimatsia-Tiofack, Théotime Le Hellard, Fabian Schramm, Nicolas Perrin-Gilbert, Justin Carpentier
