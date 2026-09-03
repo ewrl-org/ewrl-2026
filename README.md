@@ -52,7 +52,7 @@ If you need an invitation letter for visa purposes please contact [ewrl-2026@inr
 
 ### Accomodation
 
-It is easy to find a hotel in Lille using websites such as [https://fr.hotels.com/](https://fr.hotels.com/) or [booking.com](booking.com), in particular in the city center which is 15 min metro away from the conference venue. But there are also two hotels on the campus. See our recommendations [here](https://github.com/ewrl-org/ewrl-2026/blob/main/static/EWRL-hotels-list.pdf?raw=true). 
+It is easy to find a hotel in Lille using websites such as [https://fr.hotels.com/](https://fr.hotels.com/) or [booking.com](booking.com), in particular in the city center which is 15 min metro away from the conference venue. But there are also two hotels on the campus. See our recommendations [here](https://github.com/ewrl-org/ewrl-2026/blob/main/static/EWRL-hotels-list.pdf?raw=true). We also made a local guide explaining local transports and conference locations [here](https://github.com/ewrl-org/ewrl-2026/blob/main/static/EWRL-your-trip-in-Lille.pdf?raw=true).
 
 ### Social
 
@@ -70,6 +70,6 @@ The Gala Dinner will be held at the Palais de la Bourse (40 Place du Théâtre),
 
 ![](https://uasevent.hautsdefrance.cci.fr/palais-de-la-bourse/wp-content/uploads/sites/159/2025/02/grand-hall.jpg)
 
-We look forward to welcoming you there from 8:00pm onwards on Monday the 5th!
+We look forward to welcoming you there from 7:00pm onwards on Monday the 5th!
 
 The venue is within walking distance of Lille Flandres railway station and Rihour metro station ([https://maps.app.goo.gl/B7NVDReqjaaPrLzY9](https://maps.app.goo.gl/B7NVDReqjaaPrLzY9)). 
