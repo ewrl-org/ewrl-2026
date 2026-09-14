@@ -2,10 +2,8 @@
 
 - [Reinforcement Learning with Abstention: Interaction-Aware Regret Bounds](https://ewrl-org.github.io/ewrl-2026/poster_61.html) by Yuan Cheng, Vincent Y. F. Tan
 - [SUN: Reaching for Novelty in Reinforcement Learning](https://ewrl-org.github.io/ewrl-2026/poster_23.html) by Wenyan Yang, Arsenii Mustafin, Dominik Baumann, Joni Pajarinen, Simone Parisi
-- [The Horizon Threshold in Cooperative Multi-Agent Reward-Free Exploration](https://ewrl-org.github.io/ewrl-2026/poster_27.html) by Idan Barnea, Orin Levy, Yishay Mansour
 - [Split the Differences, Pool the Rest: Provably Efficient Multi-Objective Imitation](https://ewrl-org.github.io/ewrl-2026/poster_103.html) by Ziyad Sheebaelhamd, Luca Viano, Volkan Cevher, Claire Vernade
 - [Provably avoiding over-optimization in DPO without knowing the data distribution](https://ewrl-org.github.io/ewrl-2026/poster_105.html) by Adam Barla, Emanuele Nevali, Luca Viano, Volkan Cevher
-- [Soft-SVeRL: Self-Verified Reinforcement Learning with Soft Rewards](https://ewrl-org.github.io/ewrl-2026/poster_87.html) by Pierre Clavier
 - [Efficient Heteroscedastic Bayesian Optimization for Risk-Aware AutoRL](https://ewrl-org.github.io/ewrl-2026/poster_138.html) by Mingxuan Che, Tsung Yuan Tseng, Theresa Eimer, Marius Lindauer, Alexander von Rohr
 - [Collaborating in Multi-Armed Bandits with Strategic Agents](https://ewrl-org.github.io/ewrl-2026/poster_26.html) by Idan Barnea, Ofir Schlisselberg, Yishay Mansour
 - [EVaR-optimal arm identification in bandits models](https://ewrl-org.github.io/ewrl-2026/poster_12.html) by Mehrasa Ahmadipour, Aurélien Garivier
@@ -21,7 +19,6 @@
 - [Minimax PAC Bounds for Learning in Exogenous Contextual MDPs](https://ewrl-org.github.io/ewrl-2026/poster_14.html) by Corentin Pla, Hugo Richard, Marc Abeille, Vianney Perchet
 - [Factoriax - A GPU-Accelerated Factory Building Simulator In The Style Of Factorio](https://ewrl-org.github.io/ewrl-2026/poster_148.html) by Mickey Beurskens, Tristan Tomilin, Thiago D. Simão
 - [Tight Sample Complexity Bounds for Entropic Best Policy Identification](https://ewrl-org.github.io/ewrl-2026/poster_137.html) by Amer Essakine, Claire Vernade
-- [Twice-Sequential Monte Carlo for Tree Search](https://ewrl-org.github.io/ewrl-2026/poster_30.html) by Yaniv Oren, Joery A. de Vries, Pascal R. Van der Vaart, Matthijs T. J. Spaan, Wendelin Boehmer
 - [Robustness Is Free ? Global Convergence of Robust Policy Gradient Without Smoothing](https://ewrl-org.github.io/ewrl-2026/poster_21.html) by Navdeep Kumar, Kfir Yehuda Levy, Shie Mannor
 - [Extending Graph-Based Skill Discovery to Continuous State MDPs](https://ewrl-org.github.io/ewrl-2026/poster_144.html) by Harvey Ayling, Özgür Şimşek, Joshua Benjamin Evans
 - [Improved regret bounds in tabular RL under local differential privacy](https://ewrl-org.github.io/ewrl-2026/poster_9.html) by Hugo Richard
@@ -57,19 +54,19 @@
 - [Mind Your Own Target: Revisiting Uncertainty Quantification in Offline Reinforcement Learning](https://ewrl-org.github.io/ewrl-2026/poster_141.html) by Vít Unčovský, Václav Nevyhoštěný, Petr Novotný
 - [AlphaExploitem: Learning to Exploit Suboptimal Play in Poker by Harnessing Complete Game Histories](https://ewrl-org.github.io/ewrl-2026/poster_73.html) by Vlad Murgoci, Matthijs T. J. Spaan, Yaniv Oren
 - [COGNAC: Cooperative Graph-based Networked Agent Challenges for Multi-Agent Reinforcement Learning](https://ewrl-org.github.io/ewrl-2026/poster_32.html) by Jules Sintes, Ana Busic
-- [Best Arm Identification for Bandits with Shifting Means](https://ewrl-org.github.io/ewrl-2026/poster_126.html) by Lukas Zierahn, Wouter M Koolen, Shubhada Agrawal, Christina Katsimerou, Dirk van der Hoeven
 - [The Price of Decentralization in Top-K Arm Identification](https://ewrl-org.github.io/ewrl-2026/poster_98.html) by Larissa Xu, Jasmine Nguyen, William Chang
 - [Trust Region Inverse Reinforcement Learning: Explicit Dual Ascent using Local Policy Updates](https://ewrl-org.github.io/ewrl-2026/poster_46.html) by Anish Abhijit Diwan, Davide Tateo, Christopher Mower, Haitham Bou Ammar, Jan Peters, Oleg Arenz
 - [Adaptive Policy Search via Dynamic Hyperplane Partitioning](https://ewrl-org.github.io/ewrl-2026/poster_29.html) by Giovanni Dispoto, Gianmarco Tedeschi, Paolo Bonetti, Marcello Restelli
 - [Locally-Guided Actor-Critic: Training a Goal-conditioned Actor with a Subgoal-aware Critic](https://ewrl-org.github.io/ewrl-2026/poster_86.html) by Olivier Serris, Stephane Doncieux, Olivier Sigaud
 - [NASimJax: A GPU-Accelerated Policy Learning Framework for Penetration Testing](https://ewrl-org.github.io/ewrl-2026/poster_94.html) by Raphael Simon, José Carrasquel, Elli Makdis Antoun, Wim Mees, Pieter Jules Karel Libin
+- [Is Deep RL Reproducible? State of the art and new tools](https://ewrl-org.github.io/ewrl-2026/poster_56.html) by Timothée Mathieu, Juliette Achddou, Alex Davey, Hector Kohler, Philippe Preux, Julien Teigny
+
 
 ### Tuesday, Poster C --- 11:00 - 12:30
 
 - [Towards Understanding the Impact of Plasticity Loss on Reinforcement Learning in Stochastic Environments](https://ewrl-org.github.io/ewrl-2026/poster_62.html) by Philipp Bordne, André Biedenkapp
 - [Continuous Monte Carlo Search](https://ewrl-org.github.io/ewrl-2026/poster_16.html) by Lotfi Kobrosly, Tristan Cazenave
 - [A Separation Principle for Cooperative Multi-Agent Reinforcement Learning](https://ewrl-org.github.io/ewrl-2026/poster_116.html) by Lucia Pezzetti, Nicolas Lanzetti, Antonio Terpin, Florian Dorfler, Giorgia Ramponi
-- [Is Deep RL Reproducible? State of the art and new tools](https://ewrl-org.github.io/ewrl-2026/poster_56.html) by Timothée Mathieu, Juliette Achddou, Alex Davey, Hector Kohler, Philippe Preux, Julien Teigny
 - [Co-Exploration and Co-Exploitation via Shared Structure in Multi-Task Bandits](https://ewrl-org.github.io/ewrl-2026/poster_128.html) by Sumantrak Mukherjee, Serafima Lebedeva, Jasmin Brandt, Valentin Margraf, Jonas Hanselle, Kanta Yamaoka, Viktor Bengs, Stefan Konigorski, Eyke Hüllermeier, Sebastian Josef Vollmer
 - [RLLBC-Lib: An Educational Code Library for Reinforcement Learning and Learning-Based Control](https://ewrl-org.github.io/ewrl-2026/poster_54.html) by Bernd Frauenknecht, Emma Cramer, Artur Eisele, Paul Kruse, Lukas Kesper, Ramil Sabirov, Jyotirmaya Patra, Jonas Hertrampf, Johannes Berger, Paul Brunzema, Friedrich Solowjow, Sebastian Trimpe
 - [Survival Reinforcement Learning: Toward Scalable Self-Supervised RL](https://ewrl-org.github.io/ewrl-2026/poster_112.html) by Franki Nguimatsia-Tiofack, Fabian Schramm, Théotime Le Hellard, Justin Carpentier
@@ -96,6 +93,7 @@
 - [Robust Successor Features](https://ewrl-org.github.io/ewrl-2026/poster_131.html) by Erik Nikulski, Yamen Habib, Vicenç Gomez, Anders Jonsson, Rubén Moreno-Bote, Javier Segovia-Aguas
 - [Who's Winning? Identifying Nash Equilibrium from Improvement Feedback](https://ewrl-org.github.io/ewrl-2026/poster_154.html) by Cyrille Kone, Giorgia Ramponi
 - [MESHA: Mechanism-Enforced Sequential Halving for Strategic Linear Bandits](https://ewrl-org.github.io/ewrl-2026/poster_71.html) by Xin Li, Zixin Zhong
+- [Best Arm Identification for Bandits with Shifting Means](https://ewrl-org.github.io/ewrl-2026/poster_126.html) by Lukas Zierahn, Wouter M Koolen, Shubhada Agrawal, Christina Katsimerou, Dirk van der Hoeven
 
 
 ### Tuesday, Poster D --- 16:00 - 18:00
@@ -159,4 +157,5 @@
 - [Almost Sure Policy Convergence for Stochastic Bandits](https://ewrl-org.github.io/ewrl-2026/poster_165.html) by Liam Schramm, Ronald Ortner
 - [From Intuition To Evidence: A Hyperparameter Analysis Toolkit for Online Reinforcement Learning](https://ewrl-org.github.io/ewrl-2026/poster_69.html) by Theresa Eimer, Jan Felix Kleuker, Thomas M. Moerland, Marius Lindauer
 - [Exploration and Online Transfer with Behavioral Foundation Models](https://ewrl-org.github.io/ewrl-2026/poster_146.html) by Louis Bagot, Mathieu Lefort, Laetitia Matignon
-
+- [Soft-SVeRL: Self-Verified Reinforcement Learning with Soft Rewards](https://ewrl-org.github.io/ewrl-2026/poster_87.html) by Pierre Clavier
+- [Twice-Sequential Monte Carlo for Tree Search](https://ewrl-org.github.io/ewrl-2026/poster_30.html) by Yaniv Oren, Joery A. de Vries, Pascal R. Van der Vaart, Matthijs T. J. Spaan, Wendelin Boehmer
