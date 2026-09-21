@@ -27,6 +27,7 @@
 - [State Representation Matters in Deep Reinforcement Learning: Application to Energy Trading](https://ewrl-org.github.io/ewrl-2026/poster_96.html) by Jesper Klicks, Sander Vrzina, Vincent Francois-Lavet
 - [COMRAD: A Benchmark for Embodied Multi-Agent Reinforcement Learning](https://ewrl-org.github.io/ewrl-2026/poster_6.html) by Khoi H.B. Nguyen, Dimitar Zhivkov Zhekov, Tristan Tomilin
 - [On Natural Policy Compression](https://ewrl-org.github.io/ewrl-2026/poster_158.html) by Leonardo Cesani, Davide Tenedini, Matteo Papini, Marcello Restelli
+- [Is Deep RL Reproducible? State of the art and new tools](https://ewrl-org.github.io/ewrl-2026/poster_56.html) by Timothée Mathieu, Juliette Achddou, Alex Davey, Hector Kohler, Philippe Preux, Julien Teigny
 
 ### Monday, Poster B --- 16:00 - 18:00
 
@@ -59,7 +60,7 @@
 - [Adaptive Policy Search via Dynamic Hyperplane Partitioning](https://ewrl-org.github.io/ewrl-2026/poster_29.html) by Giovanni Dispoto, Gianmarco Tedeschi, Paolo Bonetti, Marcello Restelli
 - [Locally-Guided Actor-Critic: Training a Goal-conditioned Actor with a Subgoal-aware Critic](https://ewrl-org.github.io/ewrl-2026/poster_86.html) by Olivier Serris, Stephane Doncieux, Olivier Sigaud
 - [NASimJax: A GPU-Accelerated Policy Learning Framework for Penetration Testing](https://ewrl-org.github.io/ewrl-2026/poster_94.html) by Raphael Simon, José Carrasquel, Elli Makdis Antoun, Wim Mees, Pieter Jules Karel Libin
-- [Is Deep RL Reproducible? State of the art and new tools](https://ewrl-org.github.io/ewrl-2026/poster_56.html) by Timothée Mathieu, Juliette Achddou, Alex Davey, Hector Kohler, Philippe Preux, Julien Teigny
+- [On the Benefits of Free Exploration for Regret Minimization in Multi-Armed Bandits](https://ewrl-org.github.io/ewrl-2026/poster_68.html) by Yunlong Hou, Zixin Zhong, Vincent Y. F. Tan
 
 
 ### Tuesday, Poster C --- 11:00 - 12:30
@@ -124,13 +125,15 @@
 - [Better Slots, Better Worlds: Representation Quality & Robustness in Object-Centric World Models](https://ewrl-org.github.io/ewrl-2026/poster_160.html) by Shukrullo Nazirjonov, Sai Prasanna, Anna Manasyan, Georg Martius
 - [The Sampling Complexity of Condorcet Winner Identification in Dueling Bandits](https://ewrl-org.github.io/ewrl-2026/poster_135.html) by El Mehdi Saad, Victor Thuot, Nicolas Verzelen
 - [Near Cost-Optimal Best-Arm Identification with LLM Judges](https://ewrl-org.github.io/ewrl-2026/poster_66.html) by Yassir Jedra, Aymen Al Marjani, Ziyad Benomar
-- [Octax: Accelerated CHIP-8 Arcade Environments for Reinforcement Learning in JAX](https://ewrl-org.github.io/ewrl-2026/poster_104.html) by Waris Radji, Thomas Michel, Hector Piteau
+
 - [Revisiting Optimism in Deterministic Bandits](https://ewrl-org.github.io/ewrl-2026/poster_109.html) by Lorenzo Croissant, Yurong Chen
 - [Towards instance-dependent regret optimality in Episodic MDPs with Posterior Sampling](https://ewrl-org.github.io/ewrl-2026/poster_45.html) by Victor Boone, Dorian Baudry, Odalric-Ambrym Maillard, Cyrille Kone, Waris Radji
 - [Randomized Least Squares Value Iteration itself is Joint Differentially Private](https://ewrl-org.github.io/ewrl-2026/poster_156.html) by Haiyang Lu, Pratik Gajane, Shaojie Bai, M. Sadegh Talebi
+- [Best Arm Identification with Minimal Regret](https://ewrl-org.github.io/ewrl-2026/poster_25.html) by Junwen Yang, Vincent Y. F. Tan, Tianyuan Jin
 
 ### Wednesday, Poster E --- 11:00 - 12:30
 
+- [Octax: Accelerated CHIP-8 Arcade Environments for Reinforcement Learning in JAX](https://ewrl-org.github.io/ewrl-2026/poster_104.html) by Waris Radji, Thomas Michel, Hector Piteau
 - [Multiple-Frequencies Population-Based Training](https://ewrl-org.github.io/ewrl-2026/poster_39.html) by Waël Doulazmi, Auguste Lehuger, Marin Toromanoff, Valentin Charraut, Thibault Buhet, Fabien Moutarde
 - [Improved Algorithms for Online Classification with Surrogate Losses](https://ewrl-org.github.io/ewrl-2026/poster_157.html) by Abed Razawy, Valentina Masarotto, Dirk van der Hoeven
 - [Times Series Meet MDPs for Patient Follow Up](https://ewrl-org.github.io/ewrl-2026/poster_147.html) by Michalak Nicolas, Emilie Kaufmann, Timothée Mathieu, Philippe Preux
@@ -151,9 +154,7 @@
 - [Policy Planning is Minimal Among Standard Oracles for Stochastic $q^\pi$-Realizable Reinforcement Learning](https://ewrl-org.github.io/ewrl-2026/poster_42.html) by Manoj Saravanan
 - [Safely Optimal: Pure Exploration in Bandits with Unknown Linear Constraints](https://ewrl-org.github.io/ewrl-2026/poster_65.html) by Udvas Das, Achraf Azize, Debabrota Basu
 - [Optimal Best Arm Identification under Differential Privacy](https://ewrl-org.github.io/ewrl-2026/poster_7.html) by Marc Jourdan, Achraf Azize
-- [Best Arm Identification with Minimal Regret](https://ewrl-org.github.io/ewrl-2026/poster_25.html) by Junwen Yang, Vincent Y. F. Tan, Tianyuan Jin
 - [Do Not Imitate, Reinforce: Iterative Classification via Belief Refinement](https://ewrl-org.github.io/ewrl-2026/poster_139.html) by Mahdi Kallel, Johannes Tölle, Ahmed Hendawy, Carlo D'Eramo
-- [On the Benefits of Free Exploration for Regret Minimization in Multi-Armed Bandits](https://ewrl-org.github.io/ewrl-2026/poster_68.html) by Yunlong Hou, Zixin Zhong, Vincent Y. F. Tan
 - [Almost Sure Policy Convergence for Stochastic Bandits](https://ewrl-org.github.io/ewrl-2026/poster_165.html) by Liam Schramm, Ronald Ortner
 - [From Intuition To Evidence: A Hyperparameter Analysis Toolkit for Online Reinforcement Learning](https://ewrl-org.github.io/ewrl-2026/poster_69.html) by Theresa Eimer, Jan Felix Kleuker, Thomas M. Moerland, Marius Lindauer
 - [Exploration and Online Transfer with Behavioral Foundation Models](https://ewrl-org.github.io/ewrl-2026/poster_146.html) by Louis Bagot, Mathieu Lefort, Laetitia Matignon
