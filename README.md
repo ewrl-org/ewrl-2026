@@ -33,9 +33,7 @@ EWRL 19 will be located in the University of Lille, France. It will take place i
 
 ### Registration
 
-Click [here](https://inscription-evenement.univ-lille.fr/EWRL2026/) to register.
-
-If you need an invitation letter for visa purposes please contact [ewrl-2026@inria.fr](mailto:ewrl-2026@inria.fr).
+Registrations are closed.
 
 ##### Key dates
 
@@ -66,7 +64,7 @@ No registration is required, and there's no need to leave the conference venue!
 
 ##### Gala Dinner
 
-The Gala Dinner will be held at the Palais de la Bourse (40 Place du Théâtre), a landmark building dating from the early 20th century that was originally designed to house the Chamber of Commerce. Registration is mandatory (you will be able to opt in for the Gala Dinner during the workshop registration).
+The Gala Dinner will be held at the Palais de la Bourse (40 Place du Théâtre), a landmark building dating from the early 20th century that was originally designed to house the Chamber of Commerce. Registration is mandatory (you will be able to opt in for the Gala Dinner during the workshop registration). There is no dress code for the gala dinner, come as you are!
 
 ![](https://uasevent.hautsdefrance.cci.fr/palais-de-la-bourse/wp-content/uploads/sites/159/2025/02/grand-hall.jpg)
 
