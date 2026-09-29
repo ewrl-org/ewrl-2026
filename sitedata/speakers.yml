@@ -1,74 +1,88 @@
 - UID: 1
   image: "https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/christian_duriez.png?raw=true"
-  title: "Christian Duriez"
+  title: "How can RL be used to complement control strategies in soft robotics?"
   institution: "DEFROST, Inria, Univ Lille, CNRS, Ecole Centrale de Lille, Compliance Robotics, France"
   speaker: Christian Duriez
   url: "https://scholar.google.com/citations?user=sAA2koIAAAAJ&hl=fr"
-  abstract: "Abstract TBD"
+  abstract: ""
   bio: "Christian Duriez is a research director at Inria Lille, France, where he leads the DEFROST team. He earned his Ph.D. in Robotics from the CEA and Université d’Évry in 2004, followed by a postdoctoral position at CIMIT SimGroup in Boston, USA. His research focuses on interactive simulation of deformable objects, haptic rendering, and surgical simulation, with a strong emphasis on soft robotics modeling and control, fast finite element methods, and contact response simulation. A key contributor to the open-source SOFA framework, he co-founded InSimo (2013) and Compliance Robotics (2024), where he advances the use of soft robots for educational and industrial applications, particularly in the food industry. "
   session: 1
 
 - UID: 2
   image: "https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/nathan.jpeg?raw=true"
-  title: "Nathan Grinsztajn"
+  title: "The industrialization of reinforcement learning"
   institution: "Mistral."
   speaker: Nathan Grinsztajn
   url: "https://nathangrinsztajn.github.io/"
-  abstract: "Abstract TBD"
+  abstract: "Reinforcement learning has gone from being a largely academic field to an established engine of the AI boom in a span of 2 years. This talk will describe this “industrialization of reinforcement learning” happening in private AI labs, from technical, organisational, and economic perspectives.
+What are RL practitioners doing in AI labs, and how different is it from more traditional RL? We’ll cover research questions, scalable systems, and infrastructure hiccups encountered along the way. We’ll also discuss the organisational challenges of modern RL, where thousands of concurrent agents may interact with sandboxes, external services, reward models, and distributed inference systems.
+A particular focus will be on crafting useful RL datasets and environments. How do we know if an RL sample is really useful? How can we generate such samples synthetically at scale? We’ll also discuss the growing RL ecosystem: new economic actors, data vendors, human annotation, and how they combine to support successful RL runs.
+Finally, many important questions remain open, some of which are very hard to investigate at scale. We will highlight several of the open problems that still stand in the way of the growing RL industry."
   bio: "Nathan Grinsztajn works on agents at Mistral AI. Previously, he was a Member of Technical Staff at Cohere, where he worked on RL for LLMs and reasoning, and before that a research scientist at InstaDeep, where he focused on transformers for combinatorial optimization and discrete problems."
   session: 1
 - UID: 3
   image: "https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/anders.jpeg?raw=true"
-  title: "Anders Jonsson"
+  title: "Efficiency and Optimality of Hierarchical Reinforcement Learning"
   institution: "Universitat Pompeu Fabra."
   speaker: Anders Jonsson
   url: "https://www.upf.edu/web/anders-jonsson"
-  abstract: "Abstract TBD"
+  abstract: "In hierarchical reinforcement learning (HRL), a decision process is decomposed into subproblems, while a semi-Markov decision process (SMDP) chooses among subproblems. Researchers have shown empirically that HRL improves aspects such as exploration, sample efficiency, credit assignment, long-term planning and generalization. This talk discusses several design choices related to HRL, and presents two novel results. The first result is to prove theoretically that HRL is more sample efficient than standard reinforcement learning when the subproblem policies and SMDP policy are learned in parallel. The second result is to develop a theory that enables HRL to compute the globally optimal policy in a sample efficient manner."
   bio: "Anders Jonsson is a full professor in the Department of Engineering, where he heads the Artificial Intelligence and Machine Learning research group. His research interests involve sequential decision problems in which one or several agents have to make repeated decisions about what to do, mainly in the form of automated planning and reinforcement learning."
   session: 1
 - UID: 4
   image: "https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/NguyenSaoMaiIdSquare.png?raw=true"
-  title: "Sao Mai Nguyen"
+  title: "Interpretable representations of complex tasks in activity recognition and robot decision-marking"
   institution: "Ensta-Paris."
   speaker: Sao Mai Nguyen
   url: "http://nguyensmai.free.fr/Home.html"
-  abstract: "Abstract TBD"
+  abstract: "While Deep RL tackle long-horizon tasks by representation learning, most emergent latent spaces are not interpretable. In this talk, we will introduce two methods in deep reinforcement learning. 
+STAR is a deep hierarchical reinforcement learning algorithm for learning sequences of actions that uses reachability analysis to devise a latent space grounded in the environment both useful for more efficient learning by reinforcement learning, and interpretable for interaction with humans. 
+Further than sequences of actions, we explore complex activities with a richer temporal relationship between primitives. We also use deep reinforcement learning as a framework to learn temporal rules describing long-horizon activities with algorithm AlphaZero.
+These neurosymbolic methods combine trial-and-error paradigm in continuous settings with formal verification to devise an interpretable representation for human verification."
   bio: "Sao Mai Nguyen is an associate professor at Ensta-Paris. She is interested in robotics, artificial intelligence and cognitive science. She tries to bridge these 3 aspects in her work, and started working in cognitive developmental robotics. She has a special interest in linking research of machine learning, robotic embodiment, child development psychology and neuroscience."
   session: 1
 - UID: 5
   image: "https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/alex.jpg?raw=true"
-  title: "Alexandre Proutiere"
+  title: "Emergence of low-rank structure in RL: Shifted Successor Measures, Local Mixing and Hierarchies"
   institution: "KTH, Royal Institute of Technology."
   speaker: Alexandre Proutiere
   url: "https://people.kth.se/~alepro/"
-  abstract: "Abstract TBD"
+  abstract: "Based on work with Bastien Dubail and Stefan Stojanovic
+
+Abstract: Low-dimensional structure underlies many modern reinforcement learning (RL) algorithms. In steady state, Markov dynamics are trivially low-dimensional: after mixing, the dynamics are essentially rank one. But RL is concerned with finite-horizon problems, raising a natural question: how much low-dimensional structure is already present at finite horizons, before mixing?
+
+We study this question through the successor measure. While the successor measure itself need not be approximately low-rank, we show that low-rank structure naturally emerges after shifting it by only a small number of transitions. We characterize both this emerging structure and our ability to learn it efficiently through a new notion of spectral recoverability. To control this quantity, we introduce Type II Poincaré inequalities, a new class of functional inequalities for Markov chains that connect low-rank structure to local mixing. These inequalities show how mixing at different spatial and temporal scales determines when a compact representation of the dynamics emerges. This perspective naturally reveals a hierarchy of timescales in Markov dynamics and leads to new hierarchical RL algorithms that exploit it."
   bio: "Alexandre Proutiere is a professor at the Decision and Control Systems division in the EECS school at KTH, Royal Institute of Technology. His research interests are Machine Learning and AI, reinforcement learning, unsupervised learning, statistics, stochastic processes, control; applications to communication and social networks, cybersecurity."
   session: 1
 - UID: 6
   image: "https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/giorgia.jpeg?raw=true"
-  title: "Giorgia Ramponi"
+  title: "Multi-agent learning without rewards"
   institution: "University of Zurich."
   speaker: Giorgia Ramponi 
   url: "https://sites.google.com/view/alpi-lab/giorgia-ramponi"
-  abstract: "Abstract TBD"
+  abstract: "Reinforcement learning is moving from isolated agents with well-specified rewards toward systems in which agents interact with humans and with other adaptive agents. This shift makes familiar challenges, like reward misspecification, non-stationarity, credit assignment, and coordination, even more relevant.
+ 
+In this talk, I will discuss how agents can learn when rewards are unavailable or incomplete, using demonstrations, human feedback, and interaction. I will focus in particular on multi-agent settings, where learning must account for strategic behavior and equilibrium, and connect recent results in multi-agent imitation learning and feedback integration to emerging challenges in agentic AI and real-world applications."
   bio: "Giorgia is an Assistant Professor with Tenure Track at the Faculty of Business, Economics, and Informatics at the University of Zurich. She is also an affiliated professor at the ETH AI Center and an affiliated professor at the Data Science and AI, Computer Science, and Engineering department at Chalmers University of Technology."
   session: 1
 - UID: 7
   image: "https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/Pierre_Schegg.png?raw=true"
-  title: "Pierre Schegg"
+  title: ""
   institution: "CAMIN, Inria, LIRMM, Univ Montpellier, Montpellier, France"
   speaker: Pierre Schegg
   url: "https://scholar.google.com/citations?user=KSrBQrcAAAAJ&hl=fr"
-  abstract: "Abstract TBD"
+  abstract: "Reinforcement learning and model-based control are complementary approaches for soft and continuum robots. While RL has recently been very successfully applied to robotics, soft robots still pose unique problems: unconventional robot designs, rich contact interactions, underactuation, complex state representations, heavy simulation costs, and challenging sim-to-real transfer. Reinforcement Learning can be used to complement traditional control and design strategies and cover some of their limitations.
+In this talk, we will present SofaGym, a collection of Gym-style environments for training RL controllers on soft-robots, to discuss the specific challenges of soft robotics and how RL may help address them. We will then focus on an interventional cardiology example to show how Monte Carlo Tree Search can be used to explore nonlocal strategies and complement optimization-based inverse-model control.
+We will also present work on object manipulation using deformable grippers that combine hybrid approaches involving model-based control and learning. We will conclude by noting that observing nature leads us to consider that intelligence is broader than control, and in particular to develop methods for enhancing the robot’s physical—mechanical—intelligence, which simplifies control."
   bio: "Pierre Schegg is a Post-Doc at Inria, University. He works on controlling soft robots in particular for use in medical applications such as Cardiology and Bariatric Surgery."
   session: 1
 - UID: 8
   image: "https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/aviv.png?raw=true"
-  title: "Aviv Tamar"
+  title: "The Adaptation-Generalization Tradeoff"
   institution: "Technion ECE."
   speaker: Aviv Tamar
   url: "https://avivt.github.io/avivt/"
-  abstract: "Abstract TBD"
+  abstract: "A central problem in reinforcement learning is training agents that generalize to variations in their task and/or environment, formally defined as changes to the reward and transition kernel in an MDP. What sets this problem apart from standard generalization in supervised learning is that an agent can explore a changed environment and adapt, thereby generalizing at the cost of longer test-time performance. In this talk I will first formally describe this tradeoff under the framework of Bayesian RL. I will then discuss several recent works in RL and imitation learning that achieve strong generalization capabilities by exploiting the power of test-time adaptation."
   bio: "Aviv Tamar is an associate professor at Technion ECE, where he heads the Robot Learning Lab. His research focuses on AI and machine learning, with an emphasis on robotics applications. His long term goal is to bring robots into human-centered domains such as homes and hospitals."
   session: 1
 
