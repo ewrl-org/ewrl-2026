@@ -25,7 +25,7 @@
     <!-- SEO related meta-tags -->
     <meta name="description" content="EWRL 2026 is the 19th European Workshop on Reinforcement Learning, held October 5–7 in Lille, France.">
     <meta name="keywords" content="EWRL 2026, European Workshop on Reinforcement Learning, RL conference 2026, RL workshop Europe 2026, reinforcement learning, deep reinforcement learning, bandits, sequential decision, machine learning workshop Lille, RL research Europe">
-    <meta property="og:title" content="EWRL 2026: Alexandre Proutiere">
+    <meta property="og:title" content="EWRL 2026: Emergence of low-rank structure in RL: Shifted Successor Measures, Local Mixing and Hierarchies">
     <meta property="og:description" content="EWRL 2026 is the 19th European Workshop on Reinforcement Learning, held October 5–7 in Lille, France.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ewrl-org.github.io/ewrl-2026/">
@@ -93,7 +93,7 @@
     <link rel="stylesheet" href="static/css/lazy_load.css"/>
     <link rel="stylesheet" href="static/css/typeahead.css"/>
 
-    <title>EWRL 2026: Alexandre Proutiere</title>
+    <title>EWRL 2026: Emergence of low-rank structure in RL: Shifted Successor Measures, Local Mixing and Hierarchies</title>
     
 </head>
 
@@ -169,34 +169,39 @@
     <!-- Content -->
     <div class="content">
         
+<head>
+    <style>
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
 
 <!-- Title -->
 <div class="pp-card m-3" style="">
   <div class="card-header">
     <h2 class="card-title main-title text-center" style="">
-      Alexandre Proutiere
+      Emergence of low-rank structure in RL: Shifted Successor Measures, Local Mixing and Hierarchies
     </h2>
     <h3 class="card-subtitle mb-2 text-muted text-center">
       Alexandre Proutiere / KTH, Royal Institute of Technology.
     </h3>
-    <div class="text-center p-3">
-      <a class="card-link" data-toggle="collapse" role="button" href="#details">
-        Abstract & Bio
-      </a>
-    </div>
+
   </div>
 </div>
-<div id="details" class="pp-card m-3 collapse">
   <div class="card-body">
     <div class="card-text">
       <div id="abstractExample">
         <span class="font-weight-bold">Abstract:</span>
-        Abstract TBD <br /><br />
+        Based on work with Bastien Dubail and Stefan Stojanovic
+Abstract: Low-dimensional structure underlies many modern reinforcement learning (RL) algorithms. In steady state, Markov dynamics are trivially low-dimensional: after mixing, the dynamics are essentially rank one. But RL is concerned with finite-horizon problems, raising a natural question: how much low-dimensional structure is already present at finite horizons, before mixing?
+We study this question through the successor measure. While the successor measure itself need not be approximately low-rank, we show that low-rank structure naturally emerges after shifting it by only a small number of transitions. We characterize both this emerging structure and our ability to learn it efficiently through a new notion of spectral recoverability. To control this quantity, we introduce Type II Poincaré inequalities, a new class of functional inequalities for Markov chains that connect low-rank structure to local mixing. These inequalities show how mixing at different spatial and temporal scales determines when a compact representation of the dynamics emerges. This perspective naturally reveals a hierarchy of timescales in Markov dynamics and leads to new hierarchical RL algorithms that exploit it. <br /><br />
 
         <span class="font-weight-bold">Bio:</span>
         Alexandre Proutiere is a professor at the Decision and Control Systems division in the EECS school at KTH, Royal Institute of Technology. His research interests are Machine Learning and AI, reinforcement learning, unsupervised learning, statistics, stochastic processes, control; applications to communication and social networks, cybersecurity.
       </div>
-    </div>
     <p></p>
   </div>
 </div>
