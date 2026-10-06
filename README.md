@@ -51,7 +51,7 @@ Updated program for the Zoom session
 
 ### Wednesday news
 
-For tomorrow we found a new conference venue that is not a University building. We will gather here, in a hotel called Ascotel (7 avenue Paul Langevin).
+For tomorrow we found a new conference venue that is not a University building. We will gather here, in a hotel called Ascotel ([7 avenue Paul Langevin](https://www.google.fr/maps/place/The+Originals+City,+H%C3%B4tel+Ascotel,+Lille+Est+Grand+Stade/@50.610798,3.1359595,18z/data=!3m2!4b1!5s0x47c2d64eb7d390d5:0xeabc0974feb520ed!4m9!3m8!1s0x47c2d64ec35f824b:0xfc817011b80d8e6b!5m2!4m1!1i2!8m2!3d50.610798!4d3.137247!16s%2Fg%2F1tywx2zy?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D)).
 
 You can reach it from either the “Cité Scientifique” or “4 Cantons” metro stops.
 
