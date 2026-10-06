@@ -4,7 +4,7 @@ The venue is not available today due to student protests. Please do not come, we
 
 Please attend from the zoom link available on the zulip and by email.
 
-## News
+### Tuesday news
 We found a plan B for what is perhaps the most important part of EWRL : the poster sessions.
 
 
@@ -49,10 +49,17 @@ Updated program for the Zoom session
 
 11h15 Nathan Grinsztajn [The industrialization of reinforcement learning](https://ewrl-org.github.io/ewrl-2026/speaker_2.html)
 
+### Wednesday news
+
+For tomorrow we found a new conference venue that is not a University building. We will gather here, in a hotel called Ascotel (7 avenue Paul Langevin).
+
+You can reach it from either the “Cité Scientifique” or “4 Cantons” metro stops.
+
+The first talk starts at 9am and the schedule is the same as planned. For the poster session we will move to the ESPRIT building as we are today and then go back to Ascotel for lunch and the rest of the afternoon.
+
+For the contributed talks, please upload your slides beforehand in the link given in the zulip (pdf format prefered).
 
 ## 19th European Workshop on Reinforcement Learning (EWRL 2026)
-
-
 
 <img style="float: right;" src="https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/ewrl_2026_logo.png?raw=true"
 width="320"/>
