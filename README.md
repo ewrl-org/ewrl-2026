@@ -59,6 +59,8 @@ The first talk starts at 9am and the schedule is the same as planned. For the po
 
 For the contributed talks, please upload your slides beforehand in the link given in the zulip (pdf format prefered).
 
+The business meeting is moved to tomorrow at 1:15pm, in the amphitheatre.
+
 ## 19th European Workshop on Reinforcement Learning (EWRL 2026)
 
 <img style="float: right;" src="https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/ewrl_2026_logo.png?raw=true"
