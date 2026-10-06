@@ -1,5 +1,8 @@
 ## 19th European Workshop on Reinforcement Learning (EWRL 2026)
 
+*The venue is not available today due to student protests. Please do not come, we will send a visio link shortly. Please look at https://ewrl2026.zulipchat.com/ for further informations.*
+
+
 <img style="float: right;" src="https://github.com/ewrl-org/ewrl-2026/blob/main/static/images/ewrl_2026_logo.png?raw=true"
 width="320"/>
 
