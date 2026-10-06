@@ -4,6 +4,53 @@ The venue is not available today due to student protests. Please do not come, we
 
 Please attend from the zoom link available on the zulip and by email.
 
+## News
+We found a plan B for what is perhaps the most important part of EWRL : the poster sessions.
+
+
+The computer science lab building, called ESPRIT, conveniently located next to the metro station “4 Cantons” (one stop after Cité Scientifique) is not blocked by students, and safe. The direction is here.
+
+
+You are welcome to join us for a lunch cocktail at ESPRIT from 12.30pm.
+
+
+We will then have the following program
+
+
+1.30pm-3pm : Poster session C
+
+
+3pm-3.30pm : Coffee break
+
+
+3.30pm-5pm : Poster session D
+
+
+The cocktail in the evening is canceled.
+
+
+In the meantime we are looking for an alternative venue for tomorrow, we will keep you posted.
+
+
+Here is also an update schedule for the Zoom session this morning :
+
+Updated program for the Zoom session
+
+
+9h15 Anders Jonsson Efficiency and Optimality of Hierarchical Reinforcement Learning
+
+
+10h15 Lukas Zierahn et al. Best Arm Identification for Bandits with Shifting Means
+10h30 Victor Villin et al. Inferring Transferable Rewards via Active Inverse Reinforcement Learning
+
+10H45 Pablo Moreno Munoz et al. Generative Modeling by Value-Driven Transport
+
+11H Florian Wolf et al. Global Optimality for Constrained Exploration via Penalty Regularization
+
+11h15 Nathan Grinsztajn The industrialization of reinforcement learning
+
+
+
 ## 19th European Workshop on Reinforcement Learning (EWRL 2026)
 
 
