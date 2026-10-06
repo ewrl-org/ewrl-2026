@@ -8,7 +8,7 @@ Please attend from the zoom link available on the zulip and by email.
 We found a plan B for what is perhaps the most important part of EWRL : the poster sessions.
 
 
-The computer science lab building, called ESPRIT, conveniently located next to the metro station “4 Cantons” (one stop after Cité Scientifique) is not blocked by students, and safe. The direction is here.
+The computer science lab building, called ESPRIT, conveniently located next to the metro station “4 Cantons” (one stop after Cité Scientifique) is not blocked by students, and safe. The direction is [here](https://www.google.com/maps/place/ESPRIT+%28Espace+Scientifique+Pour+la+Recherche+et+l%E2%80%99Innovation+Technologique%29/@50.6070312,3.1348013,17z/data=!3m2!4b1!5s0x47c2d64e4891010d:0x77be0f5482a73b5d!4m6!3m5!1s0x47c2d78c87796311:0xf884766af42ab097!8m2!3d50.6070278!4d3.1373762!16s%2Fg%2F11h714v2vz?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D).
 
 
 You are welcome to join us for a lunch cocktail at ESPRIT from 12.30pm.
@@ -37,18 +37,17 @@ Here is also an update schedule for the Zoom session this morning :
 Updated program for the Zoom session
 
 
-9h15 Anders Jonsson Efficiency and Optimality of Hierarchical Reinforcement Learning
+9h15 Anders Jonsson [Efficiency and Optimality of Hierarchical Reinforcement Learning](https://ewrl-org.github.io/ewrl-2026/speaker_3.html)
 
 
-10h15 Lukas Zierahn et al. Best Arm Identification for Bandits with Shifting Means
-10h30 Victor Villin et al. Inferring Transferable Rewards via Active Inverse Reinforcement Learning
+10h15 Lukas Zierahn et al. [Best Arm Identification for Bandits with Shifting Means](https://ewrl-org.github.io/ewrl-2026/poster_126.html)
+10h30 Victor Villin et al. [Inferring Transferable Rewards via Active Inverse Reinforcement Learning](https://ewrl-org.github.io/ewrl-2026/poster_142.html)
 
-10H45 Pablo Moreno Munoz et al. Generative Modeling by Value-Driven Transport
+10H45 Pablo Moreno Munoz et al. [Generative Modeling by Value-Driven Transport](https://ewrl-org.github.io/ewrl-2026/poster_81.html)
 
-11H Florian Wolf et al. Global Optimality for Constrained Exploration via Penalty Regularization
+11H Florian Wolf et al. [Global Optimality for Constrained Exploration via Penalty Regularization](https://ewrl-org.github.io/ewrl-2026/poster_20.html)
 
-11h15 Nathan Grinsztajn The industrialization of reinforcement learning
-
+11h15 Nathan Grinsztajn [The industrialization of reinforcement learning](https://ewrl-org.github.io/ewrl-2026/speaker_2.html)
 
 
 ## 19th European Workshop on Reinforcement Learning (EWRL 2026)
