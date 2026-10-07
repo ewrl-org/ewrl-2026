@@ -213,6 +213,10 @@ def format_paper(v):
     list_fields = {}
     for key in list_keys:
         list_fields[key] = extract_list_field(v, key)
+    try:
+        link = v["link"]
+    except:
+        link = "blank"
 
     return {
         "UID": v["UID"],
@@ -230,7 +234,7 @@ def format_paper(v):
         # links to external content per poster
         "pdf_url": v.get("pdf_url", ""),  # render poster from this PDF
         "code_link": "https://github.com/Mini-Conf/Mini-Conf",  # link to code
-        "link": v["link"],  # link to paper
+        "link": link,  # link to paper
     }
 
 
