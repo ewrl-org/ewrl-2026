@@ -273,14 +273,18 @@
             
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="https://openreview.net/forum?id=Q7THN1ARuc">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           The use of target networks is a popular approach for estimating value functions in deep Reinforcement Learning (RL). While effective, the target network remains a compromise solution that preserves stability at the cost of slowly moving targets, thus delaying learning. Conversely, using the online network as a bootstrapped target is intuitively appealing, albeit well-known to lead to unstable learning. In this work, we aim to obtain the best out of both worlds by introducing a novel update rule that computes the target using the **MIN**imum estimate between the **T**arget and **O**nline network, giving rise to our method, **MINTO**. Through this simple, yet effective modification, we show that MINTO enables faster and stable value function learning, by mitigating the potential overestimation bias of using the online network for bootstrapping. Notably, MINTO can be seamlessly integrated into a wide range of value-based and actor-critic algorithms with a negligible cost. We evaluate MINTO extensively across diverse benchmarks, spanning online and offline RL, as well as discrete and continuous action spaces. Across all benchmarks, MINTO consistently improves performance, demonstrating its broad applicability and effectiveness.
             <!-- <a class="card-link" data-toggle="collapse" role="button" -->
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!--  -->
             <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
             <!--     Code -->

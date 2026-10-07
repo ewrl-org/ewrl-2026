@@ -281,14 +281,18 @@
             
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="https://openreview.net/forum?id=oSVlDq44sY">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           Training Reinforcement Policies (RL) using simulation models before deployment in real-world environments is a common strategy when real-world interaction is expensive. This approach is used in sim-to-real RL and in dyna-style model-based RL. A key limitation of this approach is that the policies trained in simulation often perform poorly in the real world due to discrepancies between the simulation model and the real-world environment, referred to as the sim-to-real gap. This gap reflects the objective mismatch: simulation models are typically constructed for predictive accuracy, whereas policies are trained to maximize task performance. Since the policy learned in simulation is implicitly defined by the simulation parameters, understanding the sensitivity of the learned policy with respect to these parameters enables gradient-based adaptation of the simulation model to improve real-world policy performance. Motivated by this, we derive the sensitivity of locally converged policies trained with Stochastic Policy Gradient (SPG) methods in an actor–critic setting, the most widely used approach in RL. Based on this sensitivity analysis, we formulate a bi-level RL approach that can address the objective mismatch problem by learning simulation parameters using gradients of policy performance in the real world, thereby directly coupling simulation model adaptation with policy performance. We provide a thorough convergence analysis of the proposed bi-level RL approach and illustrate the concept through a proof-of-concept bi-level Proximal Policy Optimization (PPO) algorithm.
             <!-- <a class="card-link" data-toggle="collapse" role="button" -->
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!--  -->
             <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
             <!--     Code -->

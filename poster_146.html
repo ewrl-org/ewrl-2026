@@ -229,15 +229,19 @@ In the popular context of linear reward approximation, we derive a formulation i
             
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="https://openreview.net/forum?id=0NpJZrsD92">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           Zero-shot Transfer in Reinforcement Learning (RL) aims to train an agent that can generate optimal policies for any reward function, without additional learning at transfer time, while training only on reward-free trajectories. For their generality over tasks, such models are sometimes called ``Behavioral Foundation Models&#39;&#39; (BFMs). While they have shown strong performances and improvements in recent years, the current framework and algorithms still assume that, during the transfer phase, the agent is informed offline about the reward (the task to solve) through a dataset of state-reward pairs, which it uses to pick the best policy to deploy. However, in practice if the reward is a black-box (e.g. direct user feedback), it is not possible to generate such a dataset: it is necessary to observe the reward through interactions with the environment. In other words, the current framework of offline transfer is not aligned with the traditional RL setting of online learning through trial-and-error, which requires exploration in order to find rewards. This paper proposes to tackle this new online transfer in zero-shot RL, with the key insight that the BFM itself can be used to generate exploration policies. We show that it is possible to frame this online learning problem in terms of a bandit-like exploration-exploitation problem. More precisely, at each step the bandit algorithm recommends a policy, the BFM executes it in the environment, which yields a reward and a new state; we repeat the process until we converge to the optimal policy.
 In the popular context of linear reward approximation, we derive a formulation inspired by Upper Confidence Bound and show that exploration can be achieved through the minimization of the eigenvalues of an uncertainty matrix. We evaluate qualitatively and quantitatively our framework on a simple environment to validate the concept of our method.
             <!-- <a class="card-link" data-toggle="collapse" role="button" -->
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!--  -->
             <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
             <!--     Code -->

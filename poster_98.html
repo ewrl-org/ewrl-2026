@@ -276,14 +276,18 @@
             
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="https://openreview.net/forum?id=KRVT3tfWcW">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           Cooperative teams often need to agree on the best \emph{few} options rather than simply accumulate reward, and they must do so while each member sees only a fragment of the team&#39;s collective experience. We study this as \emph{top-$K$ joint-arm identification} in multi-agent multi-armed bandits: at every round $M$ agents simultaneously choose individual actions that compose a joint arm, and the team must ultimately return the $K$ joint arms of highest mean reward. The difficulty is that an agent may not observe the actions of others, their rewards, or either. We treat three observability regimes---(A) shared rewards with hidden actions, (B) observed actions with private rewards, and (C) full asymmetry---and design communication-free elimination algorithms (\texttt{UCB-Intervals}) that reconstruct implicit coordination from whatever signal each regime leaves intact: a shared arm ordering in (A), observable deviations in (B), and enlarged confidence radii under (C). We give matching analyses in both the fixed-budget and fixed-confidence objectives, then fold all three regimes into a single meta-guarantee indexed by a multiplicity $c$ and a consensus factor $\rho$. Our central result is quantitative rather than merely algorithmic: change-of-measure lower bounds show that shared-reward identification is optimal up to one universal logarithmic factor, and that the \emph{entire} statistical price of removing communication is a multiplicative $\rho^2$ in sample complexity---a fixed $4\times$ penalty under full asymmetry. The resulting stopping time scales as $O\!\left(\sum_{\bm{a}} \log(A^M/\delta)/\Delta_{\bm{a}}^{2}\right)$ and the fixed-budget error as $\exp(-\Theta(T/H_1))$, with the dependence on the joint-action count $A^M$ shown to be unavoidable.
             <!-- <a class="card-link" data-toggle="collapse" role="button" -->
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!--  -->
             <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
             <!--     Code -->

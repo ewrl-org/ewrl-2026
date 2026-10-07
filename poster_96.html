@@ -244,14 +244,18 @@
             
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="https://openreview.net/forum?id=1y5vK33XIW">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           Energy storage trading decisions depend not only on current market prices, but also on available stored energy, expected future market conditions, and operational constraints. This makes the state representation given to a reinforcement learning agent an important design choice. We study this in HydroDam, a pumped-storage arbitrage environment, using a fixed Double DQN agent. The environment, action space, reward function, network, and training protocol are kept fixed; only the market features are changed. We compare absolute price/calendar features, relative features that compare current prices with recent market history, forecast features, and all combinations of these three feature families. Policies are trained and selected using 2007–2011 Belgian day-ahead prices and evaluated on two test settings: a later same-market test set from 2012–2025 and 39 other ENTSO-E market zones. Absolute features look strong on validation, reaching 78.9% of optimal profit, but fall to 28.8% on the test set and a median 5.7% across zones. Relative-only and forecast-only states also stay below a rolling price-score heuristic in the cross-zone median. Combining feature families is much stronger: absolute + relative reaches 49.9% on the test set and a 39.8% cross-zone median, while absolute + relative + forecast reaches 55.6% and 47.5%. These results suggest that state representation is not a minor preprocessing choice in storage-trading RL, but a central part of the policy design: robust transfer requires combining price scale, recent relative price context, and short-horizon forecast information, rather than relying on any single feature family.
             <!-- <a class="card-link" data-toggle="collapse" role="button" -->
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!--  -->
             <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
             <!--     Code -->

@@ -288,14 +288,18 @@
             
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="https://openreview.net/forum?id=jr6lAUjQ5C">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           Single-timescale actor–critic algorithms, where the actor and critic are updated simultaneously using comparable step sizes, are widely used in reinforcement learning due to their practical efficiency. However, the best known global convergence guarantee for discounted Markov decision processes (MDPs) requires $O(\epsilon^{-3})$ samples to obtain an $\epsilon$-optimal policy, leaving a gap from the known lower bound of $O(\epsilon^{-2})$. In this work, we close this gap and establish an optimal sample complexity of $O(\epsilon^{-2})$ for single-timescale actor–critic in infinite-horizon discounted tabular MDPs. Our analysis identifies critic variance as the main bottleneck limiting prior convergence rates. To control this variance, we incorporate STORM-based recursive momentum into the critic updates together with a slowly evolving critic sampling distribution to manage the additional bias caused by nonstationary policy-dependent data. The resulting analysis is challenging due to the strong coupling between actor, critic, and momentum recursions operating at different time scales. We develop refined recursions, construct a new Lyapunov function, and establish an ODE-domination argument to analyze the coupled dynamics. Our results show that variance reduction enables both actor and critic to use step sizes of order $O(k^{-1/2})$, improving upon prior work and yielding the optimal global convergence rate.
             <!-- <a class="card-link" data-toggle="collapse" role="button" -->
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!--  -->
             <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
             <!--     Code -->

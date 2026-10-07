@@ -268,14 +268,18 @@
             
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="https://openreview.net/forum?id=WaLvMNqrJi">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           Decoder-free world models such as R2-Dreamer replace pixel reconstruction with a redundancy-reduction objective that aligns recurrent latent states to image embeddings. This is efficient, but the resulting representation is trained against only the current observation embedding, leaving no explicit mechanism for separating rapidly changing control variables from slowly evolving task context. We propose HR2-Dreamer, a multi-timescale extension of R2-Dreamer. The key idea is to replace instantaneous alignment with a $\gamma$-discounted successor-alignment target. The case $\gamma=0$ exactly recovers R2-Dreamer, while the loss-level limit $\gamma\to1$ becomes a Barlow-Twins version of Slow Feature Analysis: it aligns neighboring latent features while preserving variance and decorrelation. HR2-Dreamer instantiates two such objectives in parallel, using a fast stream with $\gamma=0$ and a slow stream with $\gamma&gt;0$ inside a split RSSM. To evaluate whether the learned decomposition is behaviorally useful, we introduce ChronoControl, a controlled image-based benchmark in which high reward requires combining fast controllable position with a slowly evolving latent task phase. Linear probes and return/probe correlations on ChronoControl provide a direct test of whether slow representations are learned and used. Standard DeepMind Control experiments are included as a sanity check: HR2-Dreamer is expected to match R2-Dreamer when explicit multi-timescale structure is absent.
             <!-- <a class="card-link" data-toggle="collapse" role="button" -->
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!--  -->
             <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
             <!--     Code -->

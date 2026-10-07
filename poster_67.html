@@ -235,14 +235,18 @@
             
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="https://openreview.net/forum?id=ml0SJ4NEOC">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           Deep reinforcement learning agents progressively lose representational capacity during training: neurons become dormant, removing active capacity from the network, and effective rank collapses, leaving surviving neurons redundant. Existing remedies such as periodic resets, and special neural network architectures, are largely algorithm- or domain-specific. We propose a simple architectural fix, the Hadamard Representation (HR), which replaces a standard hidden layer with the element-wise product of two independently parameterized layers. HR operates through two complementary mechanisms. First, it reduces the probability of a neuron becoming dormant, which is particularly valuable for continuously differentiable activations such as : unlike dormant ReLU neurons, which are effectively pruned, saturated  neurons silently corrupt downstream layers by turning their outgoing weights into fixed biases. Second, independently of dormancy, the multiplicative structure captures richer feature interactions and increases effective rank without widening the layer. We evaluate HR across five algorithms and three domains: DQN, PPO, and PQN on pixel-based discrete-action Atari, SimbaV2 on state-based continuous control, and MR.Q on visual continuous control. HR consistently improves performance over the strong baselines without any hyperparameter tuning, and gains persist against parameter-matched wider variants, ruling out parameter count as an alternative explanation.
             <!-- <a class="card-link" data-toggle="collapse" role="button" -->
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!--  -->
             <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
             <!--     Code -->

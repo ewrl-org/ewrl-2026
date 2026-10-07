@@ -260,14 +260,18 @@
             
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="https://openreview.net/forum?id=QKFdUdVrET">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           Model-free offline RL methods typically utilize multiple critics to mitigate overestimation bias for out-of-distribution (OOD) actions: this includes both the standard twin-critic setup and more extensive critic ensembles capturing the epistemic uncertainty about the value estimates. In the latter group, the foundational methods (such as SAC-N and EDAC) only handle epistemic uncertainty implicitly, taking the worst-case aggregation (WA), i.e., a minimum, of critic predictions. More recent uncertainty-quantifying (UQ) methods, such as PBRL and MSG, explicitly compute some measure of intra-ensemble disagreement (e.g., the variance of predicted values), which is used to modify the actor or critic losses. As these newer methods have not yet been included in principled open-source evaluations of offline RL algorithms, the effects of explicit uncertainty quantification in offline RL remain poorly understood. {In this paper, we present a thorough and methodical evaluation of two key UQ methods, MSG and PBRL, against a range of baselines across a diverse set of D4RL tasks.} The evaluation shows that the UQ methods fail to consistently outperform the WA methods, but also that all of the considered ensemble methods are outperformed by double-critic policy-constrained methods on most tasks, thus extending a previous observation about WA methods to the more recent UQ approaches. Interestingly, the evaluated UQ methods outperform WA ones on several important tasks, and our ablations suggest that this is due to the former using independent bootstrap targets for each critic (thus confirming previous theoretical criticism of shared targets). We demonstrate that ensembles with independent targets are a key design choice and that even policy-constrained methods can substantially benefit from their adoption.
             <!-- <a class="card-link" data-toggle="collapse" role="button" -->
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!--  -->
             <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
             <!--     Code -->

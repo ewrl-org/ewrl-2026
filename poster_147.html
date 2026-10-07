@@ -236,15 +236,19 @@
             
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="https://openreview.net/forum?id=NhZkJGoOQo">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           This paper introduces a novel reinforcement learning problem motivated by automated patient follow-up. Trajectories of different patients are monitored in parallel and medical interventions should be selected adaptively so as to stabilize the patients&#39; trajectories while minimizing the total cost of the interventions.
 	In this setting, each patient generates a unique trajectory with unknown, trajectory-specific parameters, which makes classical reinforcement learning applied to each patient ineffective. We propose a controlled time-series model for the evolution of each patient, that can then be modeled by a parametric Markov Decision Process. These different MDPs depend on an individual patient parameter and some global intervention parameters, that should be learnt jointly in order to adopt a near-optimal follow-up strategy. We propose a Thompson Sampling follow-up algorithm in which the posterior sampling step is approximated using Gibbs sampling. We perform a thorough empirical study revealing the inefficiency of classical RL algorithms and the good performance of our Thompson Sampling strategy.
             <!-- <a class="card-link" data-toggle="collapse" role="button" -->
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!--  -->
             <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
             <!--     Code -->

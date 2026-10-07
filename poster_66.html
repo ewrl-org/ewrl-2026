@@ -229,15 +229,19 @@ The learner&#39;s goal is to identify the best arm with high confidence while mi
             
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="https://openreview.net/forum?id=8Iz82S2UDW">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           We study fixed-confidence best arm identification in a setting where the learner has access to cheap but potentially biased LLM judges alongside an expensive ground-truth expert. Each judge prediction incurs its own cost, and expert feedback carry a further premium. 
 The learner&#39;s goal is to identify the best arm with high confidence while minimizing the total cost incurred before stopping. We formalize this problem in the multiple-judges setting, where a subset of judges is selected per round, and the learner must decide adaptively when expert feedback is worth querying. We derive tight instance-specific lower bounds on the minimum achievable cost. These lower bounds characterize optimal sampling strategies as solutions to an optimization problem. Guided by this characterization, we devise an elimination-style learning algorithm whose cost-complexity matches the derived instance-specific lower bounds non-asymptotically, up to multiplicative constants and logarithmic factors. The algorithm features two key ingredients: it constructs sampling strategies by rounding the maximizer of an experimental design objective stemming from the information structure of the lower bound, and uses prediction powered mean estimators with instance-dependent regularization. A central technical observation, that we believe may be of independent interest is that the experimental-design objective satisfies Euler’s equation. This allows us to show that rounding an optimal allocation incurs only a controlled loss in the information terms appearing in the lower bound, which is crucial for our non-asymptotic analysis. Finally, we provide extensive empirical results suggesting that the use of LLM judges in best arm identification yields significant cost reductions on both synthetic and real-world datasets.
             <!-- <a class="card-link" data-toggle="collapse" role="button" -->
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!--  -->
             <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
             <!--     Code -->

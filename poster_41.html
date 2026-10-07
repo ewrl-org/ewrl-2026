@@ -268,15 +268,19 @@ We further advocate coupling this parameterization with a regularizer induced by
             
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="https://openreview.net/forum?id=vxGu5Wc78g">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           Policy gradient methods are known to be highly sensitive to the choice of policy parameterization. In particular, the widely used softmax parameterization can induce ill-conditioned optimization landscapes and lead to exponentially slow convergence. Although this can be mitigated by preconditioning, this solution is often computationally expensive. Instead, we propose replacing the softmax with an alternative family of policy parameterizations based on the generalized $f$-*softargmax*.
 We further advocate coupling this parameterization with a regularizer induced by the same $f$-divergence, which improves the optimization landscape and ensures that the resulting regularized objective satisfies a Polyak--Łojasiewicz inequality. Leveraging this structure, we establish the *first explicit non-asymptotic last-iterate convergence guarantees* for stochastic policy gradient methods for finite MDPs *without any form of preconditioning*. We also derive sample-complexity bounds for the unregularized problem and show that PG, with Tsallis divergences achieves *polynomial sample complexity* in contrast to the exponential complexity incurred by the standard softmax parameterization.
             <!-- <a class="card-link" data-toggle="collapse" role="button" -->
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!--  -->
             <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
             <!--     Code -->

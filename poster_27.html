@@ -255,6 +255,12 @@ Thus, we show that having $\Theta(H)$ learning phases is both necessary and suff
             
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="https://openreview.net/forum?id=qZ9FHrOOW7">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           We study cooperative multi-agent reinforcement learning in the setting of reward-free exploration, where multiple agents jointly explore an unknown MDP in order to learn its dynamics (without observing rewards). We focus on a tabular finite-horizon MDP and adopt a phased learning framework. In each learning phase, multiple agents independently interact with the environment. More specifically, in each learning phase, each agent is assigned a policy, executes it, and observes the resulting trajectory. Our primary goal is to characterize the tradeoff between the number of learning phases and the number of agents, especially when the number of learning phases is small.
 
 Our results identify a regime change governed by the horizon $H$. When the number of learning phases equals $H$, we present a computationally efficient algorithm that uses only $\tilde{O}(S^6 H^6 A / \epsilon^2)$ agents to obtain an $\epsilon$ approximation of the dynamics (i.e., yields an $\epsilon$-optimal policy for any reward function). We complement our algorithm with a lower bound showing that any algorithm restricted to $\rho &lt; H$ phases requires at least $A^{H/\rho}$ agents to achieve constant accuracy. 
@@ -263,9 +269,7 @@ Thus, we show that having $\Theta(H)$ learning phases is both necessary and suff
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!--  -->
             <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
             <!--     Code -->

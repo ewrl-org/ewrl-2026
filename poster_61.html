@@ -245,14 +245,18 @@
             
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="https://openreview.net/forum?id=tznbYc1vmo">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           We introduce and analyze a new paradigm: reinforcement learning with abstention. In this setting, an agent operating in a finite-horizon Markov Decision Process (MDP) may at any time take a terminal abstention action that ends the episode and yields a time-dependent fallback reward. We model the problem as an augmented MDP with a terminal abstention action. We propose UCBVI-AG, an optimism-based algorithm that integrates value iteration over the augmented action set with an abstention gate that simultaneously learns when to stop and how to explore the unknown environment. Our main theoretical contribution is an interaction-aware regret analysis: UCBVI-AG attains a regret bound that replaces the usual dependence on the full horizon $HK$ with a dependence on the realized number of interactions $N_{\mathrm{Int}}(K)$, which is generally smaller than $HK$ when abstention is used. To quantify when abstention is advantageous, we define the abstention margin (AM) $\Delta_{\min}$, a structural property of the MDP that measures the benefit of abstaining versus continuing. Using $\Delta_{\min}$, we derive an AM-dependent regret bound, showing that regret can shrink substantially when abstention is preferable on sufficiently many state-action-time triples. We also show that our framework subsumes standard tabular RL (when abstention is never optimal) and, most interestingly, identify concrete regimes where abstention provably reduces unnecessary interactions and yields significant gains.
             <!-- <a class="card-link" data-toggle="collapse" role="button" -->
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!--  -->
             <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
             <!--     Code -->

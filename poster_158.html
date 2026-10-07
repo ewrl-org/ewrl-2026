@@ -251,14 +251,18 @@
             
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="https://openreview.net/forum?id=0oR1YUDxmI">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           Natural Policy Gradient is the theoretically principled approach to policy optimization: by following the geometry of the statistical manifold of policy distributions rather than the Euclidean geometry of the parameter space, it identifies the true direction of steepest ascent in behavior space. In practice, however, it is often computationally intractable, requiring online estimation and inversion of the Fisher Information Matrix at every iterate. In this paper, we pursue an alternative route: rather than fixing the optimizer, we ask whether the parameter space itself can be reparametrized offline, once and for all, so that standard Euclidean optimization becomes equivalent to natural gradient ascent. In the linear-Gaussian policy setting, we answer affirmatively. We construct an explicit Fisher-whitened embedding in which the squared Euclidean distance is proportional to the average KL divergence between policies, and show that subsequent PCA compression minimizes a Fisher-weighted reconstruction error, yielding a low-dimensional latent space in which vanilla gradient steps recover projected natural-gradient directions. We empirically validate the exactness of this construction in the linear-Gaussian setting. We then use this theoretical framework as a lens to interpret action-based neural policy compression, demonstrating through condition number analysis that its empirical success is explained by how faithfully its latent bottleneck approximates the geometric ideal identified by our analysis.
             <!-- <a class="card-link" data-toggle="collapse" role="button" -->
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!--  -->
             <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
             <!--     Code -->

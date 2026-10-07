@@ -268,6 +268,12 @@ Empirical results on SMAC (with more difficult settings than the standard ones) 
             
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="https://openreview.net/forum?id=KxcYa3H4mV">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           Centralized Training with Decentralized Execution (CTDE) is the dominant paradigm in multi-agent reinforcement learning (MARL), enabling agents to act independently at test time while leveraging additional information during training. However, the most prominent methods within CTDE, based on value decomposition, are limited in learning efficiency and final performance by partial observability in both training and execution. 
 In this work, we propose a simple yet highly effective framework that lifts this restriction during training by allowing agents to share information in the latent space, thereby combining the full history of observations and actions. It produces better-informed behavioral policies that train faster and achieve stronger performance. To recover decentralized execution, we concurrently distill these policies into counterparts that rely solely on local observations, utilizing the form of the value decomposition architecture, and using a simple cross-entropy loss.
 Empirical results on SMAC (with more difficult settings than the standard ones) and SMACv2 demonstrate that policies distilled in this manner consistently outperform standard CTDE baselines and often approach the performance of their centralized counterparts. These findings suggest that using better-informed agents as teachers offers a practical and scalable approach to improving the efficiency and effectiveness of MARL under decentralized execution constraints.
@@ -275,9 +281,7 @@ Empirical results on SMAC (with more difficult settings than the standard ones) 
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!--  -->
             <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
             <!--     Code -->

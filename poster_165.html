@@ -229,14 +229,18 @@
             
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="https://openreview.net/forum?id=1EVYGd9Qi2">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           A stochastic bandit algorithm can attain optimal regret yet still behave erratically, playing badly suboptimal actions in long bursts arbitrarily late in training. We argue that a satisfying guarantee should control not just cumulative regret but the \emph{convergence} of the policy: the policy&#39;s expected suboptimality $\Delta_t$ should be bounded by a known decreasing function at every time step, with high probability. The suboptimality of the \emph{realized action} cannot converge in this sense without sacrificing exploration, but the suboptimality of the \emph{policy}---the expected gap before the action is sampled---can. We formalize this as \emph{almost sure policy convergence} and show that it implies bounds on expected regret, high-probability regret, and a policy-based version of satisficing regret that is constant in the horizon. We give an algorithm that achieves almost sure policy convergence at a near-optimal rate, yielding $O(\sum_i \log^2 T/\Delta_i)$ classical regret and horizon-free constant satisficing regret simultaneously. Matching lower bounds show the convergence rate is tight to within a logarithmic factor. Finally, we prove that algorithms whose per-arm probabilities are bounded away from zero, such as UCB and successive elimination, cannot achieve this combined guarantee.
             <!-- <a class="card-link" data-toggle="collapse" role="button" -->
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!--  -->
             <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
             <!--     Code -->

@@ -251,14 +251,18 @@
             
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="https://openreview.net/forum?id=eQPmQidbH2">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           Effective exploration remains a key challenge in model-based reinforcement learning (MBRL), especially in high-dimensional continuous control tasks where sample efficiency is critical. Recent work addresses this by using learned policies as proposal distributions for Model-Predictive Path Integral (MPPI) planning. Early approaches update the sampling policy independently of the planner, typically via deterministic policy gradients with entropy regularization. However, since the data distribution is induced by the MPPI planner, misalignment between the policy and planner degrades value estimation and long-term performance. To address this, recent methods explicitly align the policy with the planner by minimizing KL divergence to the planner distribution or by incorporating planner-guided regularization. In this work, we unify these approaches under the Policy Optimization–Model Predictive Control (PO-MPC) framework, a family of KL-regularized MBRL methods that treat the planner’s action distribution as a prior in policy optimization. We show how existing methods emerge as special cases of this family and explore previously unstudied variants. Experiments demonstrate that these variants yield significant performance gains, advancing the state of the art in MPPI-based RL.
             <!-- <a class="card-link" data-toggle="collapse" role="button" -->
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!--  -->
             <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
             <!--     Code -->

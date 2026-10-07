@@ -252,15 +252,19 @@ and depth penalties—that actively enforce feature sparsity and promote a shall
             
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="https://openreview.net/forum?id=JtwiCB8R6G">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           In Reinforcement Learning, selecting an appropriate policy structure for continuous control tasks is typically a process of trial and error. Most traditional methods rely on a fixed parameterization, thereby forcing researchers to estimate the required complexity in advance. If the chosen structure is too simple, it cannot capture the environment&#39;s dynamics; if it is too complex, learning becomes slow and inefficient. In this paper, we propose HGAPS (Hyperplane Gradient-based Adaptive Policy Search), a model-free, adaptive policy search algorithm that dynamically scales the policy structure during learning. Our method begins with a minimal, global policy. As the agent interacts with the environment, the algorithm optimizes this initial structure. When learning stalls due to the current policy&#39;s limited capacity, the algorithm automatically evolves it by partitioning the continuous state space. Specifically, it introduces linear decision boundaries, or hyperplanes, to separate the state space and differentiate localized policies. This division creates distinct regions, allowing the agent to learn specialized sub-policies exactly where the environment requires more complex decision-making. By iteratively adding these hyperplanes, our algorithm automatically constructs a hierarchical, tree-structured piecewise policy tailored to the task at hand. Crucially, to maximize the interpretability of these geometric splits, we introduce targeted regularization techniques—specifically $\ell_1$
 and depth penalties—that actively enforce feature sparsity and promote a shallower tree structure. Consequently, the resulting control strategy is not only highly performant but inherently transparent, offering a better human-readable policy. We evaluate this approach on a suite of continuous control benchmarks, demonstrating its learning efficacy and enhanced interpretability.
             <!-- <a class="card-link" data-toggle="collapse" role="button" -->
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!--  -->
             <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
             <!--     Code -->

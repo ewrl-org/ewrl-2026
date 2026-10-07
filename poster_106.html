@@ -229,14 +229,18 @@
             
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="https://openreview.net/forum?id=QXD2DEFuBU">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           We study the Lipschitz bandit problem, where a learner sequentially maximizes an unknown Lipschitz function $f$ over a domain $\mathcal{X} \subset [0,1]^d$ using noisy pointwise evaluations. Existing regret bounds are either worst-case, scaling as $\tilde{\Theta} \left ( T^{d+1/d+2}\right )$, or adaptive via the zooming dimension $d_z$, yielding $\tilde{\Theta} \left ( T^{d_z+1/d_z+2}\right )$. However, such zooming-based guarantees are only partially instance-dependent, as they depend solely on the asymptotic growth of near-optimal level sets and fail to capture finer structural properties of $f$. We provide an analysis and an algorithm that characterizes the regret through integrals of the suboptimality gap of $f$ over its level sets. This yields regret bounds that adapt to the local growth of level sets, rather than only their asymptotic behavior. As a corollary, when the set of maximizers has dimension $d^\star&gt;0$, we obtain improved adaptive rates of order $\tilde{\mathcal{O}} \left ( T^{d_z+1/\max(d_z,d^\star)+2}\right )$ strictly improving over classical zooming bounds in this regime. Finally, we extend our analysis to the full-information setting (Lipschitz experts) and show how some of the regularity assumptions can be relaxed.
             <!-- <a class="card-link" data-toggle="collapse" role="button" -->
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!--  -->
             <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
             <!--     Code -->

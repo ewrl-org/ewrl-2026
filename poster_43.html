@@ -228,14 +228,18 @@
             
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="https://openreview.net/forum?id=t1MFdCYJYu">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           Many continuous-control problems ship with a competent but suboptimal controller (a tuned PID, a hand-designed gait). A growing family of methods uses such controllers as queryable experts during RL, but each method has been proposed in isolation, on a different benchmark, without imperfect-expert testing. We harmonize the comparison on a shared SAC backbone, common HPO and evaluation protocols, 100/50 seeds per (env, method), and a degradation sweep over expert undertuning, action bias, and observation noise. The comparison surfaces three failure modes single-paper evaluations miss: (F1) a critic blind spot under argmax-plus-bootstrap that drags IBRL below no-expert SAC on experts close to the no-expert-RL ceiling (RL-near-ceiling, distinct from the absolute physical ceiling); (F2) residual saturation on far-from-optimal experts; and (F3) warm-start buffer poisoning that collapses training-time-handoff methods under deployment-time expert undertuning. No single method dominates: each wins on one task-structure regime and fails predictably elsewhere; on RL-near-ceiling experts (FourTank, GlassFurnace) no query-time method clears the expert within our 1M-step budget, leaving open whether this is a fundamental wall or a budget effect. We convert the spread into a testable decision rule keyed on three pre-training observables (expert quality, task termination, perturbation type). The benchmark, taxonomy, and decision rule are the primary contribution; we additionally describe EDGE, a softmax-over-ensemble-LCB design point used to demonstrate that both axes the taxonomy points to (gate form, scoring rule) are individually exploitable.
             <!-- <a class="card-link" data-toggle="collapse" role="button" -->
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!--  -->
             <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
             <!--     Code -->

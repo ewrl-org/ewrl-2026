@@ -221,14 +221,18 @@
             
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="https://openreview.net/forum?id=CgvvQR5xNV">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           Prioritized experience replay (PER) improves sample efficiency by replaying high-priority transitions, usually according to absolute temporal-difference error. In stochastic environments, this transition-level rule has a conditional side effect: among replay-buffer transitions that share the same state-action pair, PER changes the empirical distribution of realized outcomes seen by the learner. We call this within-group self-selection. We formalize PER as a product of a between-group allocation over state-action groups and a conditional distribution over sibling outcomes, and derive corrections that preserve group-level prioritization while replacing priority-weighted sibling selection with empirical sibling sampling: \samp\ selects a group through PER and then trains on a uniformly sampled sibling; \avg\ averages sibling Bellman targets; and \model\ samples from an empirical full-outcome model. Our empirical evaluation shows that, in exact state-action environments with rare high-magnitude outcomes, PER develops low effective sample size, large TD-error tails, and poor learning efficiency, while sibling-aware replay improves these diagnostics and downstream return or success. In the MinAtar function-approximation benchmark, approximate VQ-VAE sibling groups combined with \samp\ mitigate PER degradation under mean-preserving reward tails in four of five games. The results support our claim that some PER failures arise not from revisiting the wrong state-action regions, but from prioritizing the wrong outcome realizations inside the right regions.
             <!-- <a class="card-link" data-toggle="collapse" role="button" -->
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!--  -->
             <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
             <!--     Code -->

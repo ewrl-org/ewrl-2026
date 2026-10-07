@@ -252,14 +252,18 @@
             
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="https://openreview.net/forum?id=Lg8LUMJ2Yb">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           Recently, it has been shown that the Stochastic Gradient Bandit (SGB) algorithm converges to a globally optimal policy with a constant learning rate. However, these guarantees rely on unrealistic assumptions about the learning process, namely that the probability of playing the optimal action is always bounded away from zero. We attribute this to the lack of an explicit exploration mechanism in SGB. To solve this issue, we investigate the information geometry of the problem to enforce exploration explicitly. This naturally leads to regularizing the SGB objective with a log-barrier on the parametric policy, structurally encouraging a minimal level of exploration. Our formulation aligns with the Natural Policy Gradient (NPG), as both methods exploit the underlying geometry of the policy space encoded by the Fisher information.  We prove that Log-Barrier Stochastic Gradient Bandit (LB-SGB) matches the sample complexity of SGB, but also converges (at a slower rate) without any assumption on the sampling probability of the optimal action. Finally, we validate our theoretical findings through numerical simulations, showing the benefits of the log-barrier regularization, especially when the number of actions is large.
             <!-- <a class="card-link" data-toggle="collapse" role="button" -->
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!--  -->
             <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
             <!--     Code -->

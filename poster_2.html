@@ -260,14 +260,18 @@
             
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="https://openreview.net/forum?id=KWe6BcdmAU">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           We present a projection-free Distributional Reinforcement Learning (DistRL) framework for model-based policy evaluation and planning, leveraging the exact computability of specific return distribution moments through generalized dynamic programming. This approach offers a principled and theoretically grounded alternative to existing DistRL policy evaluation and planning methods, with the key advantage to avoid the accumulation of distributional approximations during the iterations. Unlike existing approaches, we prove that generic methods for reconstructing the full return distribution from its moments can achieve horizon-independent (and discount-factor-independent) Wasserstein-1 error bounds. Focusing on Maximum Entropy reconstruction, we further establish, under mild regularity assumptions, substantially stronger guarantees in terms of Kullback–Leibler divergence. We also show how to turn this idea into a numerically stable algorithm by combining Bellman-closed support bounds, rescaling to $[-1,1]$, and a Chebyshev basis for the MaxEnt dual. Empirically, the resulting algorithm delivers highly accurate and robust return-distribution estimates in prototypical reinforcement learning environments, for both finite-horizon and discounted objectives.
             <!-- <a class="card-link" data-toggle="collapse" role="button" -->
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!--  -->
             <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
             <!--     Code -->

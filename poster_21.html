@@ -262,6 +262,12 @@ for projected robust policy gradient methods in \texttt{sa}-rectangular robust M
             
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="https://openreview.net/forum?id=7UySVrBjKw">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           Robust policy gradient methods are a fundamental approach for robust reinforcement learning, but existing global convergence guarantees for general robust Markov decision processes (MDPs) rely on smoothing techniques such as Moreau envelopes due to the non-differentiability of the robust return. These approaches optimize smooth surrogate objectives and subsequently transfer guarantees back to the original robust problem, resulting in technically involved analyses and slow convergence rates. In this work, we show that smoothing the robust objective is unnecessary for establishing global convergence of robust policy gradient methods. Our analysis operates directly on the original non-smooth robust return by leveraging structural properties of MDPs. Specifically, we establish a smoothness-free sufficient increase guarantee under a weaker Lipschitz continuity assumption on the robust Q-function, and show that this property holds for general sa-rectangular uncertainty sets. We further develop a projection-geometry argument connecting sufficient increase and gradient domination guarantee in the non-smooth setting. Combining these ingredients, we establish a global convergence rate of
 $O(SAH^5\epsilon^{-1})$
 for projected robust policy gradient methods in \texttt{sa}-rectangular robust MDPs, improving upon the previous $O(S^3A^5H^{14}\epsilon^{-4})$ guarantees obtained via smoothing techniques for general robust MDPs where $S,A,H$ is cardinality of state-space, action-space and horizon respectively. Notably, our complexity matches that of non-robust policy gradient methods up to lower-order factors, suggesting that robustness can be achieved without incurring substantial additional optimization cost.
@@ -269,9 +275,7 @@ for projected robust policy gradient methods in \texttt{sa}-rectangular robust M
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!--  -->
             <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
             <!--     Code -->

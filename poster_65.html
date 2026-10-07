@@ -268,14 +268,18 @@
             
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="https://openreview.net/forum?id=CLxnMsCdU1">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           In real-world sequential decision making tasks, such as adaptive clinical trials, user studies for recommender systems, we aim to identify a reward-maximising policy over possible decisions while abiding by safety and resource constraints, which might not be exactly known *a priori*. We study these problems in terms of identifying a safe and optimal policy with a fixed confidence level in the multi-armed bandit setting, where pulling each arm yields correlated, noisy reward and cost signals. First, we show the statistical instability of exactly identifying the safely optimal policy. Then, we derive two information-theoretic lower bounds for identifying a safe and $\epsilon$-optimal policy for unstructured and linear bandits with multiple linear constraints. These results significantly extend the existing lower bound on identifying the unique best arm under a single constraint. Then, we design an algorithmic framework, **PRUNE**, that plugs-in the sequentially estimated reward and cost means in the lower bounds, optimises them efficiently to find a sampling strategy, and deploys two novel stopping rules to output accurate policy recommendations. Finally, we prove that **PRUNE** is asymptotically optimal for both the unstructured and linear bandits with unknown linear constraints.
             <!-- <a class="card-link" data-toggle="collapse" role="button" -->
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.12238"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!--  -->
             <!-- <a href="https://github.com/Mini-Conf/Mini-Conf" target="_blank" class="card-link"> -->
             <!--     Code -->
