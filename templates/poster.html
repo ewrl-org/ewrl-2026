@@ -49,14 +49,18 @@
             {% endfor %}
         </p>
         <div class="text-center p-3">
+
+        <a class="card-link" target="_blank" href="{{paper.link}}">
+            Paper link
+        </a>
+        </div>
+        <div class="text-center p-3">
           {{paper.abstract}}
             <!-- <a class="card-link" data-toggle="collapse" role="button" -->
             <!--    href="#details"> -->
             <!--     Abstract -->
             <!-- </a> -->
-            <!-- <a class="card-link" target="_blank" href="{{paper.link}}"> -->
-            <!--     Paper -->
-            <!-- </a> -->
+
             <!-- {% if paper.code_link != blank %} -->
             <!-- <a href="{{paper.code_link}}" target="_blank" class="card-link"> -->
             <!--     Code -->
